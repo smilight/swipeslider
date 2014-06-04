@@ -39,7 +39,7 @@ module.exports = function(grunt) {
                     sassDir: 'src/sass',
                     cssDir: 'dist/styles',
                     noLineComments: true,
-                    debugInfo: true,
+                    debugInfo: false,
                     environment: 'production'
                 }
             },
@@ -203,7 +203,7 @@ module.exports = function(grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: 'src/components/jquery/',
+                    cwd: 'src/components/jquery/dist/',
                     src: ['jquery.min.js'],
                     dest: 'dist/js/vendor/'
                 }, {
@@ -259,12 +259,20 @@ module.exports = function(grunt) {
                 }]
             }
         },
+          git_deploy: {
+    your_target: {
+      options: {
+        url: 'git@github.com:smilight/swipeslider.git'
+      },
+      src: 'dist/'
+    },
+  },
 
         watch: {
             /* watch to see if the sass files are changed, compile and add prefixes */
             styles: {
                 files: ['src/sass/**/*.{scss,sass}'],
-                tasks: ['sass:dev', 'autoprefixer:dev']
+                tasks: ['compass:dev']
             },
 
             /* watch our files for change, reload */
@@ -278,7 +286,7 @@ module.exports = function(grunt) {
     });
 
     //Task list
-    grunt.registerTask('build', ['clean', 'copy:dist', 'sass:dist', 'autoprefixer:dist', 'concat:dist', 'uglify:dist', 'useminPrepare', 'usemin', 'htmlmin:dist', 'imagemin']);
+    grunt.registerTask('build', ['clean', 'copy:dist','modernizr' ,'compass:dist', 'autoprefixer:dist', 'concat:dist', 'uglify:dist', 'useminPrepare', 'usemin', 'htmlmin:dist', 'imagemin']);
     grunt.registerTask('build:dist', ['clean', 'copy:dist', 'compass:dist', 'autoprefixer:dist', 'concat:dist', 'uglify:dist', 'useminPrepare', 'usemin', 'htmlmin:dist', 'imagemin']);
     grunt.registerTask('default', ['watch']);
 };

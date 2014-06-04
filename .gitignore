@@ -1,6 +1,7 @@
 /log
 /temp
 /node_modules
+/.sass-cache
 /config/testing.ini
 /public/web.config
 /.buildpath

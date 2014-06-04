@@ -1,50 +1,72 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_palette\.scss}line{font-family:\000031}}
 body { box-shadow: 1px 1px 1px black; }
 
 /* animation sets */
 /* move from / to  */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000036}}
 .swipeslider_anim_moveToLeft { -moz-animation: moveToLeft 0.6s ease both; -webkit-animation: moveToLeft 0.6s ease both; animation: moveToLeft 0.6s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000310}}
 .swipeslider_anim_moveFromLeft { -moz-animation: moveFromLeft 0.6s ease both; -webkit-animation: moveFromLeft 0.6s ease both; animation: moveFromLeft 0.6s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000315}}
 .swipeslider_anim_moveToRight { -moz-animation: moveToRight 0.6s ease both; -webkit-animation: moveToRight 0.6s ease both; animation: moveToRight 0.6s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000319}}
 .swipeslider_anim_moveFromRight { -moz-animation: moveFromRight 0.6s ease both; -webkit-animation: moveFromRight 0.6s ease both; animation: moveFromRight 0.6s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000323}}
 .swipeslider_anim_moveToTop { -moz-animation: moveToTop 0.6s ease both; -webkit-animation: moveToTop 0.6s ease both; animation: moveToTop 0.6s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000327}}
 .swipeslider_anim_moveFromTop { -webkit-animation: moveFromTop .6s ease both; animation: moveFromTop .6s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000332}}
 .swipeslider_anim_moveToBottom { -webkit-animation: moveToBottom .6s ease both; animation: moveToBottom .6s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000337}}
 .swipeslider_anim_moveFromBottom { -webkit-animation: moveFromBottom .6s ease both; animation: moveFromBottom .6s ease both; }
 
 /* fade */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000344}}
 .swipeslider_anim_fade { -webkit-animation: fade .7s ease both; animation: fade .7s ease both; }
 
 /* move from / to and fade */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000351}}
 .swipeslider_anim_moveToLeftFade { -webkit-animation: moveToLeftFade .7s ease both; animation: moveToLeftFade .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000356}}
 .swipeslider_anim_moveFromLeftFade { -webkit-animation: moveFromLeftFade .7s ease both; animation: moveFromLeftFade .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000361}}
 .swipeslider_anim_moveToRightFade { -webkit-animation: moveToRightFade .7s ease both; animation: moveToRightFade .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000366}}
 .swipeslider_anim_moveFromRightFade { -webkit-animation: moveFromRightFade .7s ease both; animation: moveFromRightFade .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000371}}
 .swipeslider_anim_moveToTopFade { -webkit-animation: moveToTopFade .7s ease both; animation: moveToTopFade .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000376}}
 .swipeslider_anim_moveFromTopFade { -webkit-animation: moveFromTopFade .7s ease both; animation: moveFromTopFade .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000381}}
 .swipeslider_anim_moveToBottomFade { -webkit-animation: moveToBottomFade .7s ease both; animation: moveToBottomFade .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000386}}
 .swipeslider_anim_moveFromBottomFade { -webkit-animation: moveFromBottomFade .7s ease both; animation: moveFromBottomFade .7s ease both; }
 
 /* move to with different easing */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000393}}
 .swipeslider_anim_moveToLeftEasing { -webkit-animation: moveToLeft .7s ease-in-out both; animation: moveToLeft .7s ease-in-out both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\0000397}}
 .swipeslider_anim_moveToRightEasing { -webkit-animation: moveToRight .7s ease-in-out both; animation: moveToRight .7s ease-in-out both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003101}}
 .swipeslider_anim_moveToTopEasing { -webkit-animation: moveToTop .7s ease-in-out both; animation: moveToTop .7s ease-in-out both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003105}}
 .swipeslider_anim_moveToBottomEasing { -webkit-animation: moveToBottom .7s ease-in-out both; animation: moveToBottom .7s ease-in-out both; }
 
 /********************************* keyframes **************************************/
@@ -96,16 +118,22 @@ body { box-shadow: 1px 1px 1px black; }
 @-webkit-keyframes moveFromBottomFade { from { opacity: 0.3; -webkit-transform: translateY(100%); } }
 @keyframes moveFromBottomFade { from { opacity: 0.3; -webkit-transform: translateY(100%); transform: translateY(100%); } }
 /* scale and fade */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003296}}
 .swipeslider_anim_scaleDown { -webkit-animation: scaleDown .7s ease both; animation: scaleDown .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003301}}
 .swipeslider_anim_scaleUp { -webkit-animation: scaleUp .7s ease both; animation: scaleUp .7s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003306}}
 .swipeslider_anim_scaleUpDown { -webkit-animation: scaleUpDown .5s ease both; animation: scaleUpDown .5s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003311}}
 .swipeslider_anim_scaleDownUp { -webkit-animation: scaleDownUp .5s ease both; animation: scaleDownUp .5s ease both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003316}}
 .swipeslider_anim_scaleDownCenter { -webkit-animation: scaleDownCenter .4s ease-in both; animation: scaleDownCenter .4s ease-in both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003321}}
 .swipeslider_anim_scaleUpCenter { -webkit-animation: scaleUpCenter .4s ease-out both; animation: scaleUpCenter .4s ease-out both; }
 
 /********************************* keyframes **************************************/
@@ -123,134 +151,193 @@ body { box-shadow: 1px 1px 1px black; }
 @-webkit-keyframes scaleUpCenter { from { opacity: 0; -webkit-transform: scale(0.7); } }
 @keyframes scaleUpCenter { from { opacity: 0; -webkit-transform: scale(0.7); transform: scale(0.7); } }
 /* rotate sides first and scale */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003380}}
 .swipeslider_anim_rotateRightSideFirst { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateRightSideFirst .8s both ease-in; animation: rotateRightSideFirst .8s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003386}}
 .swipeslider_anim_rotateLeftSideFirst { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateLeftSideFirst .8s both ease-in; animation: rotateLeftSideFirst .8s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003392}}
 .swipeslider_anim_rotateTopSideFirst { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateTopSideFirst .8s both ease-in; animation: rotateTopSideFirst .8s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003398}}
 .swipeslider_anim_rotateBottomSideFirst { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateBottomSideFirst .8s both ease-in; animation: rotateBottomSideFirst .8s both ease-in; }
 
 /* flip */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003407}}
 .swipeslider_anim_flipOutRight { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: flipOutRight .5s both ease-in; animation: flipOutRight .5s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003413}}
 .swipeslider_anim_flipInLeft { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: flipInLeft .5s both ease-out; animation: flipInLeft .5s both ease-out; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003419}}
 .swipeslider_anim_flipOutLeft { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: flipOutLeft .5s both ease-in; animation: flipOutLeft .5s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003425}}
 .swipeslider_anim_flipInRight { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: flipInRight .5s both ease-out; animation: flipInRight .5s both ease-out; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003431}}
 .swipeslider_anim_flipOutTop { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: flipOutTop .5s both ease-in; animation: flipOutTop .5s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003437}}
 .swipeslider_anim_flipInBottom { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: flipInBottom .5s both ease-out; animation: flipInBottom .5s both ease-out; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003443}}
 .swipeslider_anim_flipOutBottom { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: flipOutBottom .5s both ease-in; animation: flipOutBottom .5s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003449}}
 .swipeslider_anim_flipInTop { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: flipInTop .5s both ease-out; animation: flipInTop .5s both ease-out; }
 
 /* rotate fall */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003458}}
 .swipeslider_anim_rotateFall { -webkit-transform-origin: 0% 0%; transform-origin: 0% 0%; -webkit-animation: rotateFall 1s both ease-in; animation: rotateFall 1s both ease-in; }
 
 /* rotate newspaper */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003466}}
 .swipeslider_anim_rotateOutNewspaper { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: rotateOutNewspaper .5s both ease-in; animation: rotateOutNewspaper .5s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003472}}
 .swipeslider_anim_rotateInNewspaper { -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; -webkit-animation: rotateInNewspaper .5s both ease-out; animation: rotateInNewspaper .5s both ease-out; }
 
 /* push */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003480}}
 .swipeslider_anim_rotatePushLeft { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotatePushLeft .8s both ease; animation: rotatePushLeft .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003486}}
 .swipeslider_anim_rotatePushRight { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotatePushRight .8s both ease; animation: rotatePushRight .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003492}}
 .swipeslider_anim_rotatePushTop { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotatePushTop .8s both ease; animation: rotatePushTop .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003498}}
 .swipeslider_anim_rotatePushBottom { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotatePushBottom .8s both ease; animation: rotatePushBottom .8s both ease; }
 
 /* pull */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003506}}
 .swipeslider_anim_rotatePullRight { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotatePullRight .5s both ease; animation: rotatePullRight .5s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003512}}
 .swipeslider_anim_rotatePullLeft { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotatePullLeft .5s both ease; animation: rotatePullLeft .5s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003518}}
 .swipeslider_anim_rotatePullTop { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotatePullTop .5s both ease; animation: rotatePullTop .5s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003524}}
 .swipeslider_anim_rotatePullBottom { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotatePullBottom .5s both ease; animation: rotatePullBottom .5s both ease; }
 
 /* fold */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003532}}
 .swipeslider_anim_rotateFoldRight { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateFoldRight .7s both ease; animation: rotateFoldRight .7s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003538}}
 .swipeslider_anim_rotateFoldLeft { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateFoldLeft .7s both ease; animation: rotateFoldLeft .7s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003544}}
 .swipeslider_anim_rotateFoldTop { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateFoldTop .7s both ease; animation: rotateFoldTop .7s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003550}}
 .swipeslider_anim_rotateFoldBottom { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateFoldBottom .7s both ease; animation: rotateFoldBottom .7s both ease; }
 
 /* unfold */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003558}}
 .swipeslider_anim_rotateUnfoldLeft { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateUnfoldLeft .7s both ease; animation: rotateUnfoldLeft .7s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003564}}
 .swipeslider_anim_rotateUnfoldRight { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateUnfoldRight .7s both ease; animation: rotateUnfoldRight .7s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003570}}
 .swipeslider_anim_rotateUnfoldTop { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateUnfoldTop .7s both ease; animation: rotateUnfoldTop .7s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003576}}
 .swipeslider_anim_rotateUnfoldBottom { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateUnfoldBottom .7s both ease; animation: rotateUnfoldBottom .7s both ease; }
 
 /* room walls */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003584}}
 .swipeslider_anim_rotateRoomLeftOut { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateRoomLeftOut .8s both ease; animation: rotateRoomLeftOut .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003590}}
 .swipeslider_anim_rotateRoomLeftIn { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateRoomLeftIn .8s both ease; animation: rotateRoomLeftIn .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003596}}
 .swipeslider_anim_rotateRoomRightOut { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateRoomRightOut .8s both ease; animation: rotateRoomRightOut .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003602}}
 .swipeslider_anim_rotateRoomRightIn { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateRoomRightIn .8s both ease; animation: rotateRoomRightIn .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003608}}
 .swipeslider_anim_rotateRoomTopOut { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateRoomTopOut .8s both ease; animation: rotateRoomTopOut .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003614}}
 .swipeslider_anim_rotateRoomTopIn { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateRoomTopIn .8s both ease; animation: rotateRoomTopIn .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003620}}
 .swipeslider_anim_rotateRoomBottomOut { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateRoomBottomOut .8s both ease; animation: rotateRoomBottomOut .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003626}}
 .swipeslider_anim_rotateRoomBottomIn { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateRoomBottomIn .8s both ease; animation: rotateRoomBottomIn .8s both ease; }
 
 /* cube */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003634}}
 .swipeslider_anim_rotateCubeLeftOut { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateCubeLeftOut .6s both ease-in; animation: rotateCubeLeftOut .6s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003640}}
 .swipeslider_anim_rotateCubeLeftIn { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateCubeLeftIn .6s both ease-in; animation: rotateCubeLeftIn .6s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003646}}
 .swipeslider_anim_rotateCubeRightOut { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateCubeRightOut .6s both ease-in; animation: rotateCubeRightOut .6s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003652}}
 .swipeslider_anim_rotateCubeRightIn { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateCubeRightIn .6s both ease-in; animation: rotateCubeRightIn .6s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003658}}
 .swipeslider_anim_rotateCubeTopOut { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateCubeTopOut .6s both ease-in; animation: rotateCubeTopOut .6s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003664}}
 .swipeslider_anim_rotateCubeTopIn { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateCubeTopIn .6s both ease-in; animation: rotateCubeTopIn .6s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003670}}
 .swipeslider_anim_rotateCubeBottomOut { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateCubeBottomOut .6s both ease-in; animation: rotateCubeBottomOut .6s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003676}}
 .swipeslider_anim_rotateCubeBottomIn { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateCubeBottomIn .6s both ease-in; animation: rotateCubeBottomIn .6s both ease-in; }
 
 /* carousel */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003684}}
 .swipeslider_anim_rotateCarouselLeftOut { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateCarouselLeftOut .8s both ease; animation: rotateCarouselLeftOut .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003690}}
 .swipeslider_anim_rotateCarouselLeftIn { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateCarouselLeftIn .8s both ease; animation: rotateCarouselLeftIn .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003696}}
 .swipeslider_anim_rotateCarouselRightOut { -webkit-transform-origin: 0% 50%; transform-origin: 0% 50%; -webkit-animation: rotateCarouselRightOut .8s both ease; animation: rotateCarouselRightOut .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003702}}
 .swipeslider_anim_rotateCarouselRightIn { -webkit-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-animation: rotateCarouselRightIn .8s both ease; animation: rotateCarouselRightIn .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003708}}
 .swipeslider_anim_rotateCarouselTopOut { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateCarouselTopOut .8s both ease; animation: rotateCarouselTopOut .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003714}}
 .swipeslider_anim_rotateCarouselTopIn { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateCarouselTopIn .8s both ease; animation: rotateCarouselTopIn .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003720}}
 .swipeslider_anim_rotateCarouselBottomOut { -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; -webkit-animation: rotateCarouselBottomOut .8s both ease; animation: rotateCarouselBottomOut .8s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003726}}
 .swipeslider_anim_rotateCarouselBottomIn { -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-animation: rotateCarouselBottomIn .8s both ease; animation: rotateCarouselBottomIn .8s both ease; }
 
 /* sides */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003734}}
 .swipeslider_anim_rotateSidesOut { -webkit-transform-origin: -50% 50%; transform-origin: -50% 50%; -webkit-animation: rotateSidesOut .5s both ease-in; animation: rotateSidesOut .5s both ease-in; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003740}}
 .swipeslider_anim_rotateSidesIn { -webkit-transform-origin: 150% 50%; transform-origin: 150% 50%; -webkit-animation: rotateSidesIn .5s both ease-out; animation: rotateSidesIn .5s both ease-out; }
 
 /* slide */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003748}}
 .swipeslider_anim_rotateSlideOut { -webkit-animation: rotateSlideOut 1s both ease; animation: rotateSlideOut 1s both ease; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\00003752}}
 .swipeslider_anim_rotateSlideIn { -webkit-animation: rotateSlideIn 1s both ease; animation: rotateSlideIn 1s both ease; }
 
 /********************************* keyframes **************************************/
@@ -426,37 +513,1562 @@ body { box-shadow: 1px 1px 1px black; }
   75% { opacity: .5; -webkit-transform: translateZ(-500px); transform: translateZ(-500px); }
   100% { opacity: 1; -webkit-transform: translateZ(0) translateX(0); transform: translateZ(0) translateX(0); } }
 /* animation delay classes */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000031302}}
 .swipeslider_anim_delay100 { -webkit-animation-delay: .1s; animation-delay: .1s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000031306}}
 .swipeslider_anim_delay180 { -webkit-animation-delay: .180s; animation-delay: .180s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000031310}}
 .swipeslider_anim_delay200 { -webkit-animation-delay: .2s; animation-delay: .2s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000031314}}
 .swipeslider_anim_delay300 { -webkit-animation-delay: .3s; animation-delay: .3s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000031318}}
 .swipeslider_anim_delay400 { -webkit-animation-delay: .4s; animation-delay: .4s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000031322}}
 .swipeslider_anim_delay500 { -webkit-animation-delay: .5s; animation-delay: .5s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000031326}}
 .swipeslider_anim_delay700 { -webkit-animation-delay: .7s; animation-delay: .7s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animations\.scss}line{font-family:\000031330}}
 .swipeslider_anim_delay1000 { -webkit-animation-delay: 1s; animation-delay: 1s; }
 
+/* =======================================================================
+Zerif -One Page Respossive HTML5 Template
+======================================================================= */
+/* --------------------------------------
+=========================================
+GLOBAL STYLES
+=========================================
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000311}}
+html { font-size: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000316}}
+body { font-family: 'Lato', sans-serif !important; font-size: 14px; color: #808080; font-weight: normal; overflow-x: hidden; line-height: 25px; text-align: center; overflow-x: hidden !important; margin: auto !important; width: 100%; -webkit-backface-visibility: hidden; }
+
+/* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+/* Other fixes*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000348}}
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000353}}
+i { vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000356}}
+ul, ol { padding-left: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000359}}
+li { list-style: none; }
+
+/* Selection colours (easy to forget) */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000363}}
+::-moz-selection { background: #FC6D6D; color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000367}}
+::selection { background: #FC6D6D; color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000371}}
+::-moz-selection { background: #FC6D6D; color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000376}}
+a { color: #e96656; -webkit-transition: all 700ms; transition: all 700ms; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000382}}
+a, a:hover { text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000385}}
+a:hover { color: #cb4332; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000388}}
+p { margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000391}}
+.full-width { width: 100%; margin: auto; }
+
+/*--------------------------------------- *   TYPOGRAPHY                     -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\0000399}}
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003108}}
+h1, h2 { font-family: 'Montserrat', 'sans-serif'; font-weight: 700; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003113}}
+h1 { font-size: 55px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003116}}
+h2 { font-size: 45px !important; line-height: 55px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003120}}
+h3 { font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003123}}
+h4 { font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003126}}
+h5 { font-size: 17px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003129}}
+h6 { font-size: 16px; }
+
+/*--------------------------------------- *   BUTTONS                        -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003137}}
+.buttons { text-align: center; margin-bottom: 100px; margin-top: 45px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003142}}
+.button { display: inline-block !important; text-align: center; text-transform: uppercase; padding: 10px 35px 10px 35px; border-radius: 4px; margin: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003150}}
+.custom-button { display: inline-block !important; text-align: center; text-transform: uppercase; padding: 13px 35px 13px 35px; border-radius: 4px; margin: 10px; border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003159}}
+.red-btn { background: #e96656; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003162}}
+.green-btn { background: #20AA73; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003165}}
+.blue-btn { background: #3ab0e2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003168}}
+.yellow-btn { background: #E7AC44; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003171}}
+.red-btn, .green-btn, .blue-btn, .yellow-btn { color: #FFF; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003176}}
+.blue-btn:hover { color: #FFF; background: #1288b9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003180}}
+.red-btn:hover { color: #FFF; background: #cb4332; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003184}}
+.green-btn:hover { color: #FFF; background: #069059; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003188}}
+.yellow-btn:hover { color: #FFF; background: #d8951e; }
+
+/*--------------------------------------- *   COLORS                         -----
+-----------------------------------------*/
+/** BACKGROUNDS **/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003198}}
+.red-bg { background: #e96656; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003201}}
+.green-bg { background: #34d293; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003204}}
+.blue-bg { background: #3ab0e2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003207}}
+.yellow-bg { background: #E7AC44; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003210}}
+.dark-bg { background: #404040; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003213}}
+.white-bg { background: #FFFFFF; }
+
+/** FOR TEXTS AND ICON FONTS **/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003218}}
+.red-text { color: #e96656; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003221}}
+.green-text { color: #34d293; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003224}}
+.blue-text { color: #3ab0e2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003227}}
+.yellow-text { color: #f7d861; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003230}}
+.dark-text { color: #404040; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003233}}
+.white-text { color: #FFFFFF; }
+
+/*--------------------------------------- *   BORDER BOTTOMS                 -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003241}}
+.white-border-bottom:before { position: absolute; margin: auto; z-index: 1; content: ""; width: 50%; height: 2px; background: #F5F5F5; bottom: -9px; left: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003252}}
+.dark-border-bottom:before { position: absolute; margin: auto; z-index: 1; content: ""; width: 50%; height: 2px; background: #404040; bottom: -9px; left: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003263}}
+.red-border-bottom:before { position: absolute; margin: auto; z-index: 1; content: ""; width: 75%; height: 2px; background: #e96656; bottom: -9px; left: 12.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003274}}
+.green-border-bottom:before { position: absolute; margin: auto; z-index: 1; content: ""; width: 75%; height: 2px; background: #34d293; bottom: -9px; left: 12.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003285}}
+.blue-border-bottom:before { position: absolute; margin: auto; z-index: 1; content: ""; width: 75%; height: 2px; background: #3ab0e2; bottom: -9px; left: 12.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003296}}
+.yellow-border-bottom:before { position: absolute; margin: auto; z-index: 1; content: ""; width: 75%; height: 2px; background: #f7d861; bottom: -9px; left: 12.5%; }
+
+/*--------------------------------------- *   FORM                           -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003312}}
+.input-box { border: 0; width: 274px; text-align: left; text-transform: none; padding: 9px; min-height: 46px; padding-left: 15px; display: inline-block; border-radius: 4px; background: rgba(255, 255, 255, 0.95); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003324}}
+.textarea-box { border: 0; text-align: left; text-transform: none; padding: 9px; min-height: 250px; padding-left: 15px; display: inline-block; border-radius: 4px; background: rgba(255, 255, 255, 0.95); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003335}}
+textarea:hover, input:hover, textarea:active, input:active, textarea:focus, input:focus { outline: 1 !important; outline-color: #e96656 !important; -webkit-appearance: none; border: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; }
+
+/*--------------------------------------- *   SECTION HEADERS                -----
+-----------------------------------------*/
+/*** SECTION HEADERS ***/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003354}}
+.focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us { padding-top: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003357}}
+.section-header { text-align: center; padding-bottom: 75px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003361}}
+.section-header h2 { padding-bottom: 10px; line-height: 40px; position: relative; display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003367}}
+.section-header h6 { font-size: 16px; }
+
+/* PRE LOADER */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003372}}
+.preloader { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: #fefefe; z-index: 99999; height: 100%; width: 100%; overflow: hidden !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003384}}
+.status { width: 200px; height: 200px; position: absolute; left: 50%; top: 50%; background-image: url(../images/loading.gif); background-repeat: no-repeat; background-position: center; margin: -100px 0 0 -100px; }
+
+/*---------------------------------------
+========================================= *   SECTION STYLES                 -----
+=========================================
+-----------------------------------------*/
+/*--------------------------------------- *   SECTION:  HOME                  -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003406}}
+.header { background: rgba(0, 0, 0, 0.5); min-height: 775px; position: relative; overflow: hidden; }
+
+/*----  SECTION:  HOME > TOP BAR   ----*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003414}}
+.navbar { background: #FFF; overflow: hidden; border: 0; border-radius: 0 !important; text-align: left; -webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.5); box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003423}}
+#main-nav { position: absolute; width: 100%; z-index: 1000; min-height: 75px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003429}}
+#main-nav.fixed { position: fixed !important; top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003433}}
+.navbar-inverse .navbar-nav > li { display: inline; margin-right: 20px; margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003438}}
+.navbar-inverse .navbar-nav > li:last-child { margin-right: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003441}}
+.navbar-inverse .navbar-nav > li > a { color: #404040; padding: 0; line-height: 35px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003446}}
+.navbar-brand { height: 76px; position: relative; line-height: 45px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003451}}
+.current a { color: #e96656 !important; position: relative; outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003456}}
+.current:before { position: absolute; margin: auto; z-index: 1; content: ""; width: 75%; height: 2px; background: #e96656; bottom: 0px; left: 12.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003467}}
+.navbar-inverse .navbar-nav > li > a:hover { color: #e96656; outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003471}}
+.navbar-toggle { border: 0; background-color: #808080; margin-top: 23px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003476}}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background-color: #e96656; filter: alpha(opacity=100); opacity: 1; }
+
+/*----  SECTION:  HOME > INTRO AND SHORT MSGS   ----*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003483}}
+.intro { text-align: center; color: #FFF; margin-top: 25%; line-height: 65px; z-index: 0; }
+
+/* Short Messages */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003492}}
+.bottom-message-section { margin-top: 14%; position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003496}}
+.short-text { margin: auto; text-align: center; color: rgba(255, 255, 255, 0.7); text-transform: uppercase; }
+
+/*--------------------------------------- *   SECTION:  OUR FOCUS             -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003507}}
+.focus { padding-bottom: 100px; overflow: hidden; background: #FFFFFF; }
+
+/* FOCUS BOX */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003513}}
+.focus-box { margin-bottom: 75px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003516}}
+.focus-box .service-icon { margin-bottom: 30px; width: 145px; height: 145px; margin: auto; border-radius: 50%; border: 10px solid #ececec; margin-bottom: 20px; position: relative; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+/* ON HOVER COLORED ROUNDED CIRCLE AROUND ICONS */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003530}}
+.red, .green, .blue, .yellow { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003534}}
+.red:hover .service-icon { border: 10px solid #e96656; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003537}}
+.green:hover .service-icon { border: 10px solid #34d293; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003540}}
+.blue:hover .service-icon { border: 10px solid #3ab0e2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003543}}
+.yellow:hover .service-icon { border: 10px solid #f7d861; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003547}}
+.focus-box h5 { margin-bottom: 15px; color: #404040; position: relative; display: inline-block; text-transform: uppercase; margin-bottom: 30px; font-weight: bold; font-size: 17px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003557}}
+.focus-box p { font-size: 14px; }
+
+/*----OTHER FOCUSES ----*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003562}}
+.other-focuses { background: url(../images/lines.png) repeat-x center; margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003566}}
+.other-focuses .section-footer-title { background: #FFF; padding: 0 15px; color: #404040; font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003572}}
+.other-focus-list { padding-top: 5px; margin-bottom: -17px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003576}}
+.other-focus-list ul li { display: inline-block; margin-right: 50px; padding-bottom: 15px; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003582}}
+.other-focus-list ul li:last-child { margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003585}}
+.other-focus-list ul li i { margin-right: 8px; }
+
+/*--------------------------------------- *   SECTION:  SEPARATOR ONE         -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003593}}
+.separator-one { background: rgba(52, 210, 147, 0.8); padding: 100px 0 100px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003597}}
+.separator-one .green-btn { background: #14a168; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003600}}
+.separator-one .green-btn:hover { background: #007345; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003603}}
+.separator-one .text { color: #FFF; line-height: 34px; padding: 0; max-width: 800px; margin-bottom: 20px; }
+
+/*--------------------------------------- *   SECTION:  PORTFOLIO          -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003615}}
+.works { padding-bottom: 100px; background: #FFFFFF; min-height: 800px; }
+
+/* IMAGE GRID */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003622}}
+.cbp-rfgrid { margin: auto; padding: 0; list-style: none; position: relative; width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003629}}
+.cbp-rfgrid li { position: relative; float: left; overflow: hidden; width: 25%; /* Fallback */ width: -webkit-calc(100% / 4); width: calc(100% / 4); -webkit-transition: 0.4s all linear; transition: 0.4s all linear; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003639}}
+.cbp-rfgrid li a, .cbp-rfgrid li a img { display: block; max-width: 100%; -webkit-transform: scale(1, 1); -ms-transform: scale(1, 1); transform: scale(1, 1); -webkit-transition-timing-function: ease-in; transition-timing-function: ease-in; -webkit-transition-duration: 250ms; transition-duration: 250ms; cursor: pointer; -webkit-transition: 0.4s all linear; transition: 0.4s all linear; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003653}}
+.cbp-rfgrid li a:hover img { -webkit-transform: scale(1.05, 1.07); -ms-transform: scale(1.05, 1.07); transform: scale(1.05, 1.07); -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; -webkit-transition-duration: 250ms; transition-duration: 250ms; }
+
+/* Flexbox is used for centering the heading */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003664}}
+.cbp-rfgrid li a .project-info { position: absolute; left: 10px; top: 10px; right: 10px; bottom: 10px; background: rgba(0, 0, 0, 0.5); padding-top: 25%; text-align: center; filter: alpha(opacity=0); opacity: 0; -webkit-transition: all ease .25s; transition: all ease .25s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003678}}
+.cbp-rfgrid li a .project-info .project-details { position: relative; top: -29px; filter: alpha(opacity=0); opacity: 0; -webkit-transition: all ease .25s; transition: all ease .25s; width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003687}}
+.cbp-rfgrid li a .project-info h5 { position: relative; display: inline-block; margin-bottom: 15px; font-weight: bold; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003694}}
+.cbp-rfgrid li a:hover .project-info { filter: alpha(opacity=100); opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003698}}
+.cbp-rfgrid li a:hover .project-details { filter: alpha(opacity=100); opacity: 1; top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003703}}
+.cbp-rfgrid li a:hover .button { filter: alpha(opacity=100); opacity: 1; bottom: -50px; }
+
+/* media queries:  change number of items per row */
+@media screen and (max-width: 1190px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003711}}
+  .cbp-rfgrid li { width: 25%; /* Fallback */ width: -webkit-calc(100% / 4); width: calc(100% / 4); } }
+@media screen and (max-width: 1024px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003718}}
+  .cbp-rfgrid li { width: 33.33333333333333%; /* Fallback */ width: -webkit-calc(100% / 3); width: calc(100% / 3); } }
+@media screen and (max-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003725}}
+  .cbp-rfgrid li { width: 50%; /* Fallback */ width: -webkit-calc(100% / 2); width: calc(100% / 2); } }
+@media screen and (max-width: 480px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003732}}
+  .cbp-rfgrid li { width: 100%; } }
+@media screen and (max-width: 300px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003737}}
+  .cbp-rfgrid li { width: 100%; } }
+/* PROJECT DETAILS LOADER */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003743}}
+#back-button { display: none; text-align: center; text-transform: uppercase; padding: 13px 35px 13px 35px; border-radius: 4px; margin: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003751}}
+#back-button i { margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003754}}
+#loader { min-height: 930px; position: relative; display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003759}}
+#loader .loader-icon { background: url(../images/loading.gif) no-repeat center center; background-color: #FFF; margin: -22px -22px; top: 50%; left: 50%; z-index: 10000; position: fixed; width: 44px; height: 44px; -webkit-background-size: 30px 30px; background-size: 30px 30px; border-radius: 5px; }
+
+/*--------------------------------------- *   SECTION:  ABOUT US              -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003778}}
+.about-us { background: #272727; color: #FFF; padding-bottom: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003783}}
+.about-us .big-intro { text-align: right; font-weight: 300; font-size: 60px; line-height: normal; margin-top: -15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003790}}
+.about-us p { text-align: left; color: #939393; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003794}}
+.about-us .column { margin-bottom: 78px; }
+
+/*--SKILLS --*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003798}}
+.skills { text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003801}}
+.skills .skill { display: block; clear: both; margin-top: 0; margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003807}}
+.skills .skill .skill-count { display: inline-block; height: 64px; margin-top: 3px; float: left; margin-right: 15px; margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003815}}
+.skills li:last-child { margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003818}}
+.skills .skill .skill1, .skill2, .skill3, .skill4 { font-size: 16px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003821}}
+.skills .skill h6 { text-transform: uppercase; font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003825}}
+.skills .skill p { line-height: 20px; color: #8f8f8f; }
+
+/*--OUR CLIENTS --*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003831}}
+.our-clients { background: url(../images/lines-dark.png) repeat-x center; margin-bottom: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003835}}
+.our-clients .section-footer-title { background: #272727; padding: 0 15px; color: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003840}}
+.our-clients h5 { font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003843}}
+.client-list { padding-top: 5px; margin-bottom: -17px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003847}}
+.client-list ul li { vertical-align: middle; display: inline-block; margin-right: 24px; padding-bottom: 15px; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003854}}
+.client-list ul li img { max-width: 130px; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter: alpha(opacity=80); opacity: 0.8; -webkit-transition: all ease .55s; transition: all ease .55s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003862}}
+.client-list ul li img:hover { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003867}}
+.client-list ul li:last-child { margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003870}}
+.client-list ul li i { margin-right: 8px; }
+
+/*--------------------------------------- *   SECTION:  STATS                 -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003878}}
+.stats { background: rgba(0, 0, 0, 0.5); padding: 100px 0 60px 0 !important; clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003883}}
+.stat { margin-bottom: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003886}}
+.stat .icon-top { font-size: 40px; height: 50px; line-height: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003891}}
+.stat .stat-text { display: inline-block; position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003895}}
+.stat h3 { margin-top: 20px; padding-bottom: 5px; position: relative; display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003901}}
+.stat h6 { color: #d1d1d1; margin-top: 15px; }
+
+/*--------------------------------------- *   SECTION:  OUR TEAM              -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003910}}
+.our-team { padding-bottom: 66px; padding-top: 100px; background: #FFFFFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003915}}
+.team-member { border-radius: 4px; overflow: hidden; position: relative; margin-bottom: 35px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003921}}
+.team-member .details { text-align: left; font-size: 13px; line-height: 20px; position: absolute; padding: 15px; top: -200px; left: 0; width: 100%; height: 190px; -webkit-transition: all 1500ms; transition: all 1500ms; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003937}}
+.team-member .member-details { position: relative; display: inline-block; padding-bottom: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003942}}
+.team-member:hover .details { top: 0; background: #333; color: white; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003950}}
+.team-member .profile-pic { border-radius: 50%; width: 174px; height: 174px; margin: auto; overflow: hidden; margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003958}}
+.team-member .profile-pic img { width: 100%; height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003962}}
+.team-member h5 { text-transform: uppercase; color: #404040; font-weight: 700; position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003968}}
+.team-member .position { font-size: 13px; margin-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003972}}
+.team-member .social-icons { margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003975}}
+.team-member .social-icons ul li { display: inline-block; line-height: 32px; margin: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003980}}
+.team-member .social-icons ul li a { background: #FFF; font-size: 18px; border-radius: 50%; color: #808080; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003986}}
+.team-member .social-icons ul li a:hover { color: #e96656; }
+
+/*--------------------------------------- *   SECTION:  FEATURES              -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003994}}
+.features { background: #FFFFFF; text-align: left; padding-bottom: 51px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\00003999}}
+.features .feature { margin-bottom: 55px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031002}}
+.features .feature-icon { font-size: 55px; float: left; margin-top: 10px; margin-right: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031008}}
+.features .feature h5 { font-weight: bold; line-height: 28px; color: #404040; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031013}}
+.features .feature p { font-size: 14px; }
+
+/*--------------------------------------- *   SECTION:  Pacages               -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031021}}
+.packages { padding-bottom: 50px; background: rgba(0, 0, 0, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031025}}
+.package { border-radius: 4px; background: #FFFFFF; margin-top: 25px; margin-bottom: 50px; padding-bottom: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031032}}
+.package-header { height: 57px; color: #FFF; line-height: 57px; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031039}}
+.package-header h5 { text-transform: uppercase; font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031043}}
+.price { line-height: 120px; height: 100px; color: #FFF; font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031049}}
+.price h4 { display: inline; font-size: 40px; line-height: normal; margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031055}}
+.price h4 .dollar-sign { font-size: 17px; vertical-align: super; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031059}}
+.price .price-meta { line-height: normal; text-transform: uppercase; color: #9f9f9f; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031064}}
+.package ul li { padding-top: 10px; padding-bottom: 10px; width: 80%; margin: auto; border-bottom: 1px dotted #dadada; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031071}}
+.package ul li:last-child { border-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031074}}
+.best-value .package { margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031077}}
+.best-value .package-header { padding-top: 17px; height: 82px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031081}}
+.best-value .package-header h4 { font-weight: bold; line-height: 29px; text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031086}}
+.best-value .package-header .meta-text { font-size: 13px; line-height: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031090}}
+.best-value .package-header { height: 72px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031093}}
+.package ul li i { font-size: 13px; margin-right: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031097}}
+.order { background: #d8ccba; color: #404040; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031101}}
+.package .order-now { line-height: 45px; max-width: 100%; display: block; background: #404040; color: #FFF; -webkit-transition: all 700ms; transition: all 700ms; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031112}}
+.package .order-now:hover { background: #e96656; }
+
+/*---------------------------------------
+**   SECTION:  PRODUCTS             -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031120}}
+.products { background: url(../images/product-bg.png) 50% 0 repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031123}}
+.products .color-overlay { background: rgba(39, 144, 176, 0.96); margin-top: -100px; padding-top: 100px; padding-bottom: 70px; }
+
+/*--ITEMS IMAGES--*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031131}}
+.item-1 { background-image: url(http://d13yacurqjgara.cloudfront.net/users/33345/screenshots/1394613/one-light_1x.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031134}}
+.item-2 { background-image: url(http://d13yacurqjgara.cloudfront.net/users/33345/screenshots/1374342/telfez_1x.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031137}}
+.item-3 { background-image: url(http://d13yacurqjgara.cloudfront.net/users/33345/screenshots/1256084/calendar_1x.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031140}}
+.item-4 { background-image: url(http://d13yacurqjgara.cloudfront.net/users/33345/screenshots/1253372/flat-toolbar_1x.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031143}}
+.item-5 { background-image: url(http://d13yacurqjgara.cloudfront.net/users/33345/screenshots/1244791/public-radio_1x.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031146}}
+.item-6 { background-image: url(http://d13yacurqjgara.cloudfront.net/users/33345/screenshots/1192806/health-care-integrations_1x.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031149}}
+.item-7 { background-image: url(http://d13yacurqjgara.cloudfront.net/users/33345/screenshots/1236039/radio-dial_1x.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031152}}
+.item-8 { background-image: url(http://d13yacurqjgara.cloudfront.net/users/33345/screenshots/1188444/pricing_1x.png); }
+
+/*---ITEM STYLE ---*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031157}}
+.item { width: 100%; height: 260px; display: block; -webkit-background-size: 100%; background-size: 100%; position: relative; margin: auto; margin-bottom: 30px; z-index: 5; -webkit-backface-visibility: hidden; overflow: hidden; border-radius: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031171}}
+.item-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; -webkit-transition: background-color 0.3s ease-in-out; transition: background-color 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031181}}
+.item-content { position: absolute; width: 100%; bottom: 0; -webkit-transform: translate(0, 100%); -ms-transform: translate(0, 100%); transform: translate(0, 100%); -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031191}}
+.item:hover .item-content { -webkit-transform: translate(0, 0); -ms-transform: translate(0, 0); transform: translate(0, 0); -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031198}}
+.item-top-content { position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031201}}
+.item-top-content-inner { position: absolute; bottom: 0; padding: 10px 15px 10px 15px; background: rgba(255, 255, 255, 0.95); width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031208}}
+.item-add-content { padding: 0 15px 15px 15px; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); opacity: 0; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031216}}
+.item:hover .item-add-content { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031221}}
+.item-add-content-inner { border: 0px solid #dadada; border-top-width: 1px; padding-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031226}}
+.item-top-title { text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031229}}
+.item-top-title h5 { color: #404040; font-weight: 700; }
+
+/* ITEM DETAILS */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031234}}
+.item-product { width: 70%; float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031238}}
+.item-product-price { width: 30%; float: right; text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031243}}
+.subdescription { font-size: 14px; font-weight: 400; color: #7d7d7d; }
+
+/*---PRODUCT PRICE---*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031250}}
+.item-product-price { font-size: 1em; font-weight: 700; position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031255}}
+.item-product-price .subdescription { color: #808080; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031258}}
+.old-price { border: 0 solid #808080; border-bottom-width: 1px; margin-top: -11px; width: 30px; position: absolute; right: -2px; bottom: 10px; -webkit-transform: rotate(-30deg); -ms-transform: rotate(-30deg); transform: rotate(-30deg); }
+
+/*---ITEM DESCRIPTION ---*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031272}}
+.item-content { background: rgba(255, 255, 255, 0.85); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031275}}
+.item-add-content { font-weight: 400; color: #808080; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031279}}
+.item-add-content .section { margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031282}}
+.item-add-content .section:last-of-type { margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031285}}
+.item-add-content p { font-size: 14PX; }
+
+/*--------------------------------------- *   SECTION:  NEWSLETTER            -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031292}}
+.newsletter { padding-top: 62px; padding-bottom: 62px; background: rgba(0, 0, 0, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031297}}
+.newsletter h3 { font-size: 28px; text-transform: uppercase; font-family: 'Montserrat', sans-serif; font-weight: 700; margin-bottom: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031304}}
+.newsletter .subscription { margin-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031307}}
+.newsletter .custom-button { margin-top: 7px; }
+
+/*---------------------------------------- *   SECTION:  TESTIMONIAL            -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031314}}
+.testimonial { background: #dbbf56; padding-bottom: 90px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031318}}
+#client-feedbacks .feedback-box { background: #FFFFFF; padding: 25px; margin: 13px; text-align: left; border-radius: 4px; -webkit-box-shadow: none; box-shadow: none; display: block; z-index: 5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031329}}
+.feedback-box .message { font-size: 15px; color: #909090; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031333}}
+.feedback-box .client { margin-top: 30px; height: 73px; position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031338}}
+.feedback-box .quote { float: left; font-size: 45px; line-height: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031343}}
+.feedback-box .client-info { float: left; margin-left: 18px; padding-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031348}}
+.feedback-box .client-info .client-name { font-family: 'Homemade Apple', serif; color: #404040; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031352}}
+.feedback-box .client-info .client-company { font-size: 13px; margin-top: -3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031356}}
+.feedback-box .client-image { float: right; width: 73px; height: 73px; border-radius: 50%; overflow: hidden; border: 3px solid #f6f6f6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031364}}
+.customNavigation { text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031367}}
+.owl-theme .owl-controls .owl-page span { background: #886e0e; border-radius: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031371}}
+.customNavigation a { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+
+/*---------------------------------------- *   SECTION:  PURCHASE NOW           -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031383}}
+.purchase-now { background: #e96656; padding-top: 70px; padding-bottom: 70px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031388}}
+.purchase-now h3 { text-align: left; line-height: 40px; margin-top: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031393}}
+.purchase-now .red-btn { float: right; background: #db5a4a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031397}}
+.purchase-now .red-btn:hover { background: #bf3928; }
+
+/*---------------------------------------- *   SECTION:  CONTACT US             -----
+-----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031405}}
+.contact-us { background: rgba(0, 0, 0, 0.5); padding-bottom: 95px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031409}}
+.contact-us .input-box, textarea { width: 100%; margin: auto; margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031414}}
+.contact-us .custom-button { float: right; }
+
+/* ----------------------------------------*/
+/*   SECTION:  FOOTER                        */
+/* ----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031422}}
+footer { background: #272727; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031425}}
+.company-details { color: #939393; padding-top: 67px; padding-bottom: 67px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031430}}
+.company-details .icon-top { font-size: 30px; margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031434}}
+.copyright { padding-top: 60px; padding-bottom: 68px; background: #171717; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031439}}
+.social li { display: inline-block; margin: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031443}}
+.social li a { color: #939393; font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031447}}
+.social li a:hover { color: #e96656; }
+
+/* ========================================= */
+/* -----------------------------------------*/
+/*   SINGLE PROJECT PAGE                     */
+/* -----------------------------------------*/
+/* ========================================= */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031457}}
+.single-project { text-align: left; margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031461}}
+.single-project .project-image { width: 100%; float: left; text-align: left; margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031467}}
+.single-project h3 { margin-bottom: 10px; padding-bottom: 7px; line-height: 40px; border-bottom: 1px dotted #dadada; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031473}}
+.single-project .project-description { margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031476}}
+.single-project .button { margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031479}}
+.single-project .project-information { margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031482}}
+.single-project .project-information ul li { border-bottom: 1px dotted #dadada; padding-bottom: 5px; margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_main\.scss}line{font-family:\000031487}}
+.single-project .project-information ul li span { font-weight: 700; margin-right: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\000031}}
+a:hover, a:focus, .bordered .info h3 a:hover, .bordered .info h4 a:hover, .icon i.icn, .meta a:hover, .meta li.categories:hover:before, .more:hover, .navbar.basic .nav > li > a:hover, .navbar.basic .nav > li > a:focus, .navbar.basic .nav .open > a, .navbar.basic .nav .open > a:hover, .navbar.basic .nav .open > a:focus, .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a:hover, .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active, .navbar-header .info a:hover, .nav > li > a:hover, .owl-carousel:hover .owl-next:hover, .owl-carousel:hover .owl-prev:hover, .panel-title > a:hover, #scrollUp:hover, .sidemeta .format-wrapper a, .tabs-side .tab.active a, .tabs-top .tab.active a, .text-center .panel-title > a:hover span:after, ul.arrowed li:before, ul.circled li:before, .yamm .yamm-content a:hover { color: #1ABB9C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\0000332}}
+.tint-bg .btn, .tint-color { color: #1ABB9C !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\0000337}}
+.btn, .classic-blog .post .date, .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a, .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus, .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover, .navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:focus, .navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:hover, .navbar .dropdown-submenu:focus > a, .navbar .dropdown-submenu:hover > a, .owl-pagination .owl-page.active span, .owl-pagination .owl-page:hover span, #owl-main .caption h1 span.tint-bg, #owl-main .caption p span.tint-bg, .pagination > li > a, .pagination > li > span, .post.format-quote, .sidemeta .format-wrapper a:hover, .sidenav li a:hover, .tabs-circle-top .tab.active a, .tabs-side .tab a:hover, .tabs-top .tab a:hover, .tint-bg, .tint-bg.img-bg-soft:before, .tint-bg.img-bg-softer:before, .tooltip-inner { background-color: #1ABB9C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\0000365}}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > li > a:hover, .pagination > li > a:focus { background-color: #17A78B; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\0000378}}
+.icon-overlay a .icn-more, .items li .text-overlay, .owl-carousel .item .text-overlay, .thumbs .thumb .text-overlay { background-color: rgba(26, 187, 156, 0.9); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\0000385}}
+.classic-blog .post .date, .icon.circle, .sidemeta .format-wrapper a, .tabs-circle-top .tab.active a, .tabs-circle-top .tab a:hover, .tabs-side .tab a:hover, .tabs-top .tab a:hover { border-color: #1ABB9C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\0000395}}
+.tooltip.top .tooltip-arrow, .tooltip.top-left .tooltip-arrow, .tooltip.top-right .tooltip-arrow { border-top-color: #1ABB9C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\00003100}}
+.tooltip.right .tooltip-arrow { border-right-color: #1ABB9C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\00003103}}
+.tooltip.left .tooltip-arrow { border-left-color: #1ABB9C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\00003106}}
+.tooltip.bottom .tooltip-arrow, .tooltip.bottom-left .tooltip-arrow, .tooltip.bottom-right .tooltip-arrow { border-bottom-color: #1ABB9C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\00003112}}
+#owl-main .caption h1 span.tint-bg, #owl-main .caption p span.tint-bg { box-shadow: -.500em 0 0 #1ABB9C, .500em 0 0 #1ABB9C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\00003117}}
+::selection { background: #AAF2E4; /* Safari */ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_green\.scss}line{font-family:\00003121}}
+::-moz-selection { background: #AAF2E4; /* Firefox */ }
+
+                 /*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license
+
+Copyright (c) 2013 Daniel Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.animated.infinite { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.animated.hinge { -webkit-animation-duration: 2s; animation-duration: 2s; }
+
+@-webkit-keyframes bounce { 0%,100%,20%,50%,80% { -webkit-transform: translateY(0); transform: translateY(0); }
+  40% { -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+  60% { -webkit-transform: translateY(-15px); transform: translateY(-15px); } }
+@keyframes bounce { 0%,100%,20%,50%,80% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  40% { -webkit-transform: translateY(-30px); -ms-transform: translateY(-30px); transform: translateY(-30px); }
+  60% { -webkit-transform: translateY(-15px); -ms-transform: translateY(-15px); transform: translateY(-15px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounce { -webkit-animation-name: bounce; animation-name: bounce; }
+
+@-webkit-keyframes flash { 0%,100%,50% { opacity: 1; }
+  25%,75% { opacity: 0; } }
+@keyframes flash { 0%,100%,50% { opacity: 1; }
+  25%,75% { opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.flash { -webkit-animation-name: flash; animation-name: flash; }
+
+@-webkit-keyframes pulse { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(1.1); transform: scale(1.1); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+@keyframes pulse { 0% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+  50% { -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); }
+  100% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.pulse { -webkit-animation-name: pulse; animation-name: pulse; }
+
+@-webkit-keyframes rubberBand { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  30% { -webkit-transform: scaleX(1.25) scaleY(0.75); transform: scaleX(1.25) scaleY(0.75); }
+  40% { -webkit-transform: scaleX(0.75) scaleY(1.25); transform: scaleX(0.75) scaleY(1.25); }
+  60% { -webkit-transform: scaleX(1.15) scaleY(0.85); transform: scaleX(1.15) scaleY(0.85); }
+  100% { -webkit-transform: scale(1); transform: scale(1); } }
+@keyframes rubberBand { 0% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+  30% { -webkit-transform: scaleX(1.25) scaleY(0.75); -ms-transform: scaleX(1.25) scaleY(0.75); transform: scaleX(1.25) scaleY(0.75); }
+  40% { -webkit-transform: scaleX(0.75) scaleY(1.25); -ms-transform: scaleX(0.75) scaleY(1.25); transform: scaleX(0.75) scaleY(1.25); }
+  60% { -webkit-transform: scaleX(1.15) scaleY(0.85); -ms-transform: scaleX(1.15) scaleY(0.85); transform: scaleX(1.15) scaleY(0.85); }
+  100% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rubberBand { -webkit-animation-name: rubberBand; animation-name: rubberBand; }
+
+@-webkit-keyframes shake { 0%,100% { -webkit-transform: translateX(0); transform: translateX(0); }
+  10%,30%,50%,70%,90% { -webkit-transform: translateX(-10px); transform: translateX(-10px); }
+  20%,40%,60%,80% { -webkit-transform: translateX(10px); transform: translateX(10px); } }
+@keyframes shake { 0%,100% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  10%,30%,50%,70%,90% { -webkit-transform: translateX(-10px); -ms-transform: translateX(-10px); transform: translateX(-10px); }
+  20%,40%,60%,80% { -webkit-transform: translateX(10px); -ms-transform: translateX(10px); transform: translateX(10px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.shake { -webkit-animation-name: shake; animation-name: shake; }
+
+@-webkit-keyframes swing { 20% { -webkit-transform: rotate(15deg); transform: rotate(15deg); }
+  40% { -webkit-transform: rotate(-10deg); transform: rotate(-10deg); }
+  60% { -webkit-transform: rotate(5deg); transform: rotate(5deg); }
+  80% { -webkit-transform: rotate(-5deg); transform: rotate(-5deg); }
+  100% { -webkit-transform: rotate(0deg); transform: rotate(0deg); } }
+@keyframes swing { 20% { -webkit-transform: rotate(15deg); -ms-transform: rotate(15deg); transform: rotate(15deg); }
+  40% { -webkit-transform: rotate(-10deg); -ms-transform: rotate(-10deg); transform: rotate(-10deg); }
+  60% { -webkit-transform: rotate(5deg); -ms-transform: rotate(5deg); transform: rotate(5deg); }
+  80% { -webkit-transform: rotate(-5deg); -ms-transform: rotate(-5deg); transform: rotate(-5deg); }
+  100% { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.swing { -webkit-transform-origin: top center; -ms-transform-origin: top center; transform-origin: top center; -webkit-animation-name: swing; animation-name: swing; }
+
+@-webkit-keyframes tada { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  10%,20% { -webkit-transform: scale(0.9) rotate(-3deg); transform: scale(0.9) rotate(-3deg); }
+  30%,50%,70%,90% { -webkit-transform: scale(1.1) rotate(3deg); transform: scale(1.1) rotate(3deg); }
+  40%,60%,80% { -webkit-transform: scale(1.1) rotate(-3deg); transform: scale(1.1) rotate(-3deg); }
+  100% { -webkit-transform: scale(1) rotate(0); transform: scale(1) rotate(0); } }
+@keyframes tada { 0% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+  10%,20% { -webkit-transform: scale(0.9) rotate(-3deg); -ms-transform: scale(0.9) rotate(-3deg); transform: scale(0.9) rotate(-3deg); }
+  30%,50%,70%,90% { -webkit-transform: scale(1.1) rotate(3deg); -ms-transform: scale(1.1) rotate(3deg); transform: scale(1.1) rotate(3deg); }
+  40%,60%,80% { -webkit-transform: scale(1.1) rotate(-3deg); -ms-transform: scale(1.1) rotate(-3deg); transform: scale(1.1) rotate(-3deg); }
+  100% { -webkit-transform: scale(1) rotate(0); -ms-transform: scale(1) rotate(0); transform: scale(1) rotate(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.tada { -webkit-animation-name: tada; animation-name: tada; }
+
+@-webkit-keyframes wobble { 0% { -webkit-transform: translateX(0%); transform: translateX(0%); }
+  15% { -webkit-transform: translateX(-25%) rotate(-5deg); transform: translateX(-25%) rotate(-5deg); }
+  30% { -webkit-transform: translateX(20%) rotate(3deg); transform: translateX(20%) rotate(3deg); }
+  45% { -webkit-transform: translateX(-15%) rotate(-3deg); transform: translateX(-15%) rotate(-3deg); }
+  60% { -webkit-transform: translateX(10%) rotate(2deg); transform: translateX(10%) rotate(2deg); }
+  75% { -webkit-transform: translateX(-5%) rotate(-1deg); transform: translateX(-5%) rotate(-1deg); }
+  100% { -webkit-transform: translateX(0%); transform: translateX(0%); } }
+@keyframes wobble { 0% { -webkit-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); }
+  15% { -webkit-transform: translateX(-25%) rotate(-5deg); -ms-transform: translateX(-25%) rotate(-5deg); transform: translateX(-25%) rotate(-5deg); }
+  30% { -webkit-transform: translateX(20%) rotate(3deg); -ms-transform: translateX(20%) rotate(3deg); transform: translateX(20%) rotate(3deg); }
+  45% { -webkit-transform: translateX(-15%) rotate(-3deg); -ms-transform: translateX(-15%) rotate(-3deg); transform: translateX(-15%) rotate(-3deg); }
+  60% { -webkit-transform: translateX(10%) rotate(2deg); -ms-transform: translateX(10%) rotate(2deg); transform: translateX(10%) rotate(2deg); }
+  75% { -webkit-transform: translateX(-5%) rotate(-1deg); -ms-transform: translateX(-5%) rotate(-1deg); transform: translateX(-5%) rotate(-1deg); }
+  100% { -webkit-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.wobble { -webkit-animation-name: wobble; animation-name: wobble; }
+
+@-webkit-keyframes bounceIn { 0% { opacity: 0; -webkit-transform: scale(0.3); transform: scale(0.3); }
+  50% { opacity: 1; -webkit-transform: scale(1.05); transform: scale(1.05); }
+  70% { -webkit-transform: scale(0.9); transform: scale(0.9); }
+  100% { opacity: 1; -webkit-transform: scale(1); transform: scale(1); } }
+@keyframes bounceIn { 0% { opacity: 0; -webkit-transform: scale(0.3); -ms-transform: scale(0.3); transform: scale(0.3); }
+  50% { opacity: 1; -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05); }
+  70% { -webkit-transform: scale(0.9); -ms-transform: scale(0.9); transform: scale(0.9); }
+  100% { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceIn { -webkit-animation-name: bounceIn; animation-name: bounceIn; }
+
+@-webkit-keyframes bounceInDown { 0% { opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); }
+  60% { opacity: 1; -webkit-transform: translateY(30px); transform: translateY(30px); }
+  80% { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+  100% { -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes bounceInDown { 0% { opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); }
+  60% { opacity: 1; -webkit-transform: translateY(30px); -ms-transform: translateY(30px); transform: translateY(30px); }
+  80% { -webkit-transform: translateY(-10px); -ms-transform: translateY(-10px); transform: translateY(-10px); }
+  100% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceInDown { -webkit-animation-name: bounceInDown; animation-name: bounceInDown; }
+
+@-webkit-keyframes bounceInLeft { 0% { opacity: 0; -webkit-transform: translateX(-2000px); transform: translateX(-2000px); }
+  60% { opacity: 1; -webkit-transform: translateX(30px); transform: translateX(30px); }
+  80% { -webkit-transform: translateX(-10px); transform: translateX(-10px); }
+  100% { -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes bounceInLeft { 0% { opacity: 0; -webkit-transform: translateX(-2000px); -ms-transform: translateX(-2000px); transform: translateX(-2000px); }
+  60% { opacity: 1; -webkit-transform: translateX(30px); -ms-transform: translateX(30px); transform: translateX(30px); }
+  80% { -webkit-transform: translateX(-10px); -ms-transform: translateX(-10px); transform: translateX(-10px); }
+  100% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceInLeft { -webkit-animation-name: bounceInLeft; animation-name: bounceInLeft; }
+
+@-webkit-keyframes bounceInRight { 0% { opacity: 0; -webkit-transform: translateX(2000px); transform: translateX(2000px); }
+  60% { opacity: 1; -webkit-transform: translateX(-30px); transform: translateX(-30px); }
+  80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
+  100% { -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes bounceInRight { 0% { opacity: 0; -webkit-transform: translateX(2000px); -ms-transform: translateX(2000px); transform: translateX(2000px); }
+  60% { opacity: 1; -webkit-transform: translateX(-30px); -ms-transform: translateX(-30px); transform: translateX(-30px); }
+  80% { -webkit-transform: translateX(10px); -ms-transform: translateX(10px); transform: translateX(10px); }
+  100% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceInRight { -webkit-animation-name: bounceInRight; animation-name: bounceInRight; }
+
+@-webkit-keyframes bounceInUp { 0% { opacity: 0; -webkit-transform: translateY(2000px); transform: translateY(2000px); }
+  60% { opacity: 1; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+  80% { -webkit-transform: translateY(10px); transform: translateY(10px); }
+  100% { -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes bounceInUp { 0% { opacity: 0; -webkit-transform: translateY(2000px); -ms-transform: translateY(2000px); transform: translateY(2000px); }
+  60% { opacity: 1; -webkit-transform: translateY(-30px); -ms-transform: translateY(-30px); transform: translateY(-30px); }
+  80% { -webkit-transform: translateY(10px); -ms-transform: translateY(10px); transform: translateY(10px); }
+  100% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceInUp { -webkit-animation-name: bounceInUp; animation-name: bounceInUp; }
+
+@-webkit-keyframes bounceOut { 0% { -webkit-transform: scale(1); transform: scale(1); }
+  25% { -webkit-transform: scale(0.95); transform: scale(0.95); }
+  50% { opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1); }
+  100% { opacity: 0; -webkit-transform: scale(0.3); transform: scale(0.3); } }
+@keyframes bounceOut { 0% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+  25% { -webkit-transform: scale(0.95); -ms-transform: scale(0.95); transform: scale(0.95); }
+  50% { opacity: 1; -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); }
+  100% { opacity: 0; -webkit-transform: scale(0.3); -ms-transform: scale(0.3); transform: scale(0.3); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceOut { -webkit-animation-name: bounceOut; animation-name: bounceOut; }
+
+@-webkit-keyframes bounceOutDown { 0% { -webkit-transform: translateY(0); transform: translateY(0); }
+  20% { opacity: 1; -webkit-transform: translateY(-20px); transform: translateY(-20px); }
+  100% { opacity: 0; -webkit-transform: translateY(2000px); transform: translateY(2000px); } }
+@keyframes bounceOutDown { 0% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  20% { opacity: 1; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+  100% { opacity: 0; -webkit-transform: translateY(2000px); -ms-transform: translateY(2000px); transform: translateY(2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceOutDown { -webkit-animation-name: bounceOutDown; animation-name: bounceOutDown; }
+
+@-webkit-keyframes bounceOutLeft { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  20% { opacity: 1; -webkit-transform: translateX(20px); transform: translateX(20px); }
+  100% { opacity: 0; -webkit-transform: translateX(-2000px); transform: translateX(-2000px); } }
+@keyframes bounceOutLeft { 0% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  20% { opacity: 1; -webkit-transform: translateX(20px); -ms-transform: translateX(20px); transform: translateX(20px); }
+  100% { opacity: 0; -webkit-transform: translateX(-2000px); -ms-transform: translateX(-2000px); transform: translateX(-2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceOutLeft { -webkit-animation-name: bounceOutLeft; animation-name: bounceOutLeft; }
+
+@-webkit-keyframes bounceOutRight { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  20% { opacity: 1; -webkit-transform: translateX(-20px); transform: translateX(-20px); }
+  100% { opacity: 0; -webkit-transform: translateX(2000px); transform: translateX(2000px); } }
+@keyframes bounceOutRight { 0% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  20% { opacity: 1; -webkit-transform: translateX(-20px); -ms-transform: translateX(-20px); transform: translateX(-20px); }
+  100% { opacity: 0; -webkit-transform: translateX(2000px); -ms-transform: translateX(2000px); transform: translateX(2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceOutRight { -webkit-animation-name: bounceOutRight; animation-name: bounceOutRight; }
+
+@-webkit-keyframes bounceOutUp { 0% { -webkit-transform: translateY(0); transform: translateY(0); }
+  20% { opacity: 1; -webkit-transform: translateY(20px); transform: translateY(20px); }
+  100% { opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); } }
+@keyframes bounceOutUp { 0% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  20% { opacity: 1; -webkit-transform: translateY(20px); -ms-transform: translateY(20px); transform: translateY(20px); }
+  100% { opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.bounceOutUp { -webkit-animation-name: bounceOutUp; animation-name: bounceOutUp; }
+
+@-webkit-keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+@keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeIn { -webkit-animation-name: fadeIn; animation-name: fadeIn; }
+
+@-webkit-keyframes fadeInDown { 0% { opacity: 0; -webkit-transform: translateY(-20px); transform: translateY(-20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes fadeInDown { 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeInDown { -webkit-animation-name: fadeInDown; animation-name: fadeInDown; }
+
+@-webkit-keyframes fadeInDownBig { 0% { opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes fadeInDownBig { 0% { opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeInDownBig { -webkit-animation-name: fadeInDownBig; animation-name: fadeInDownBig; }
+
+@-webkit-keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translateX(-20px); transform: translateX(-20px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translateX(-20px); -ms-transform: translateX(-20px); transform: translateX(-20px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeInLeft { -webkit-animation-name: fadeInLeft; animation-name: fadeInLeft; }
+
+@-webkit-keyframes fadeInLeftBig { 0% { opacity: 0; -webkit-transform: translateX(-2000px); transform: translateX(-2000px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes fadeInLeftBig { 0% { opacity: 0; -webkit-transform: translateX(-2000px); -ms-transform: translateX(-2000px); transform: translateX(-2000px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeInLeftBig { -webkit-animation-name: fadeInLeftBig; animation-name: fadeInLeftBig; }
+
+@-webkit-keyframes fadeInRight { 0% { opacity: 0; -webkit-transform: translateX(20px); transform: translateX(20px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes fadeInRight { 0% { opacity: 0; -webkit-transform: translateX(20px); -ms-transform: translateX(20px); transform: translateX(20px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeInRight { -webkit-animation-name: fadeInRight; animation-name: fadeInRight; }
+
+@-webkit-keyframes fadeInRightBig { 0% { opacity: 0; -webkit-transform: translateX(2000px); transform: translateX(2000px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes fadeInRightBig { 0% { opacity: 0; -webkit-transform: translateX(2000px); -ms-transform: translateX(2000px); transform: translateX(2000px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeInRightBig { -webkit-animation-name: fadeInRightBig; animation-name: fadeInRightBig; }
+
+@-webkit-keyframes fadeInUp { 0% { opacity: 0; -webkit-transform: translateY(20px); transform: translateY(20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes fadeInUp { 0% { opacity: 0; -webkit-transform: translateY(20px); -ms-transform: translateY(20px); transform: translateY(20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeInUp { -webkit-animation-name: fadeInUp; animation-name: fadeInUp; }
+
+@-webkit-keyframes fadeInUpBig { 0% { opacity: 0; -webkit-transform: translateY(2000px); transform: translateY(2000px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes fadeInUpBig { 0% { opacity: 0; -webkit-transform: translateY(2000px); -ms-transform: translateY(2000px); transform: translateY(2000px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeInUpBig { -webkit-animation-name: fadeInUpBig; animation-name: fadeInUpBig; }
+
+@-webkit-keyframes fadeOut { 0% { opacity: 1; }
+  100% { opacity: 0; } }
+@keyframes fadeOut { 0% { opacity: 1; }
+  100% { opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOut { -webkit-animation-name: fadeOut; animation-name: fadeOut; }
+
+@-webkit-keyframes fadeOutDown { 0% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(20px); transform: translateY(20px); } }
+@keyframes fadeOutDown { 0% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(20px); -ms-transform: translateY(20px); transform: translateY(20px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOutDown { -webkit-animation-name: fadeOutDown; animation-name: fadeOutDown; }
+
+@-webkit-keyframes fadeOutDownBig { 0% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(2000px); transform: translateY(2000px); } }
+@keyframes fadeOutDownBig { 0% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(2000px); -ms-transform: translateY(2000px); transform: translateY(2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOutDownBig { -webkit-animation-name: fadeOutDownBig; animation-name: fadeOutDownBig; }
+
+@-webkit-keyframes fadeOutLeft { 0% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(-20px); transform: translateX(-20px); } }
+@keyframes fadeOutLeft { 0% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(-20px); -ms-transform: translateX(-20px); transform: translateX(-20px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOutLeft { -webkit-animation-name: fadeOutLeft; animation-name: fadeOutLeft; }
+
+@-webkit-keyframes fadeOutLeftBig { 0% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(-2000px); transform: translateX(-2000px); } }
+@keyframes fadeOutLeftBig { 0% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(-2000px); -ms-transform: translateX(-2000px); transform: translateX(-2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOutLeftBig { -webkit-animation-name: fadeOutLeftBig; animation-name: fadeOutLeftBig; }
+
+@-webkit-keyframes fadeOutRight { 0% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(20px); transform: translateX(20px); } }
+@keyframes fadeOutRight { 0% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(20px); -ms-transform: translateX(20px); transform: translateX(20px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOutRight { -webkit-animation-name: fadeOutRight; animation-name: fadeOutRight; }
+
+@-webkit-keyframes fadeOutRightBig { 0% { opacity: 1; -webkit-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(2000px); transform: translateX(2000px); } }
+@keyframes fadeOutRightBig { 0% { opacity: 1; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(2000px); -ms-transform: translateX(2000px); transform: translateX(2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOutRightBig { -webkit-animation-name: fadeOutRightBig; animation-name: fadeOutRightBig; }
+
+@-webkit-keyframes fadeOutUp { 0% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(-20px); transform: translateY(-20px); } }
+@keyframes fadeOutUp { 0% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOutUp { -webkit-animation-name: fadeOutUp; animation-name: fadeOutUp; }
+
+@-webkit-keyframes fadeOutUpBig { 0% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); } }
+@keyframes fadeOutUpBig { 0% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.fadeOutUpBig { -webkit-animation-name: fadeOutUpBig; animation-name: fadeOutUpBig; }
+
+@-webkit-keyframes flip { 0% { -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1); transform: perspective(400px) translateZ(0) rotateY(0) scale(1); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+  40% { -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1); transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+  50% { -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1); transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+  80% { -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95); transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+  100% { -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1); transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; } }
+@keyframes flip { 0% { -webkit-transform: perspective(400px) translateZ(0) rotateY(0) scale(1); -ms-transform: perspective(400px) translateZ(0) rotateY(0) scale(1); transform: perspective(400px) translateZ(0) rotateY(0) scale(1); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+  40% { -webkit-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1); -ms-transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1); transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+  50% { -webkit-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1); -ms-transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1); transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+  80% { -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95); -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95); transform: perspective(400px) translateZ(0) rotateY(360deg) scale(0.95); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+  100% { -webkit-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1); -ms-transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1); transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1); -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.animated.flip { -webkit-backface-visibility: visible; -ms-backface-visibility: visible; backface-visibility: visible; -webkit-animation-name: flip; animation-name: flip; }
+
+@-webkit-keyframes flipInX { 0% { -webkit-transform: perspective(400px) rotateX(90deg); transform: perspective(400px) rotateX(90deg); opacity: 0; }
+  40% { -webkit-transform: perspective(400px) rotateX(-10deg); transform: perspective(400px) rotateX(-10deg); }
+  70% { -webkit-transform: perspective(400px) rotateX(10deg); transform: perspective(400px) rotateX(10deg); }
+  100% { -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(0deg); opacity: 1; } }
+@keyframes flipInX { 0% { -webkit-transform: perspective(400px) rotateX(90deg); -ms-transform: perspective(400px) rotateX(90deg); transform: perspective(400px) rotateX(90deg); opacity: 0; }
+  40% { -webkit-transform: perspective(400px) rotateX(-10deg); -ms-transform: perspective(400px) rotateX(-10deg); transform: perspective(400px) rotateX(-10deg); }
+  70% { -webkit-transform: perspective(400px) rotateX(10deg); -ms-transform: perspective(400px) rotateX(10deg); transform: perspective(400px) rotateX(10deg); }
+  100% { -webkit-transform: perspective(400px) rotateX(0deg); -ms-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(0deg); opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.flipInX { -webkit-backface-visibility: visible !important; -ms-backface-visibility: visible !important; backface-visibility: visible !important; -webkit-animation-name: flipInX; animation-name: flipInX; }
+
+@-webkit-keyframes flipInY { 0% { -webkit-transform: perspective(400px) rotateY(90deg); transform: perspective(400px) rotateY(90deg); opacity: 0; }
+  40% { -webkit-transform: perspective(400px) rotateY(-10deg); transform: perspective(400px) rotateY(-10deg); }
+  70% { -webkit-transform: perspective(400px) rotateY(10deg); transform: perspective(400px) rotateY(10deg); }
+  100% { -webkit-transform: perspective(400px) rotateY(0deg); transform: perspective(400px) rotateY(0deg); opacity: 1; } }
+@keyframes flipInY { 0% { -webkit-transform: perspective(400px) rotateY(90deg); -ms-transform: perspective(400px) rotateY(90deg); transform: perspective(400px) rotateY(90deg); opacity: 0; }
+  40% { -webkit-transform: perspective(400px) rotateY(-10deg); -ms-transform: perspective(400px) rotateY(-10deg); transform: perspective(400px) rotateY(-10deg); }
+  70% { -webkit-transform: perspective(400px) rotateY(10deg); -ms-transform: perspective(400px) rotateY(10deg); transform: perspective(400px) rotateY(10deg); }
+  100% { -webkit-transform: perspective(400px) rotateY(0deg); -ms-transform: perspective(400px) rotateY(0deg); transform: perspective(400px) rotateY(0deg); opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.flipInY { -webkit-backface-visibility: visible !important; -ms-backface-visibility: visible !important; backface-visibility: visible !important; -webkit-animation-name: flipInY; animation-name: flipInY; }
+
+@-webkit-keyframes flipOutX { 0% { -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(0deg); opacity: 1; }
+  100% { -webkit-transform: perspective(400px) rotateX(90deg); transform: perspective(400px) rotateX(90deg); opacity: 0; } }
+@keyframes flipOutX { 0% { -webkit-transform: perspective(400px) rotateX(0deg); -ms-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(0deg); opacity: 1; }
+  100% { -webkit-transform: perspective(400px) rotateX(90deg); -ms-transform: perspective(400px) rotateX(90deg); transform: perspective(400px) rotateX(90deg); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.flipOutX { -webkit-animation-name: flipOutX; animation-name: flipOutX; -webkit-backface-visibility: visible !important; -ms-backface-visibility: visible !important; backface-visibility: visible !important; }
+
+@-webkit-keyframes flipOutY { 0% { -webkit-transform: perspective(400px) rotateY(0deg); transform: perspective(400px) rotateY(0deg); opacity: 1; }
+  100% { -webkit-transform: perspective(400px) rotateY(90deg); transform: perspective(400px) rotateY(90deg); opacity: 0; } }
+@keyframes flipOutY { 0% { -webkit-transform: perspective(400px) rotateY(0deg); -ms-transform: perspective(400px) rotateY(0deg); transform: perspective(400px) rotateY(0deg); opacity: 1; }
+  100% { -webkit-transform: perspective(400px) rotateY(90deg); -ms-transform: perspective(400px) rotateY(90deg); transform: perspective(400px) rotateY(90deg); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.flipOutY { -webkit-backface-visibility: visible !important; -ms-backface-visibility: visible !important; backface-visibility: visible !important; -webkit-animation-name: flipOutY; animation-name: flipOutY; }
+
+@-webkit-keyframes lightSpeedIn { 0% { -webkit-transform: translateX(100%) skewX(-30deg); transform: translateX(100%) skewX(-30deg); opacity: 0; }
+  60% { -webkit-transform: translateX(-20%) skewX(30deg); transform: translateX(-20%) skewX(30deg); opacity: 1; }
+  80% { -webkit-transform: translateX(0%) skewX(-15deg); transform: translateX(0%) skewX(-15deg); opacity: 1; }
+  100% { -webkit-transform: translateX(0%) skewX(0deg); transform: translateX(0%) skewX(0deg); opacity: 1; } }
+@keyframes lightSpeedIn { 0% { -webkit-transform: translateX(100%) skewX(-30deg); -ms-transform: translateX(100%) skewX(-30deg); transform: translateX(100%) skewX(-30deg); opacity: 0; }
+  60% { -webkit-transform: translateX(-20%) skewX(30deg); -ms-transform: translateX(-20%) skewX(30deg); transform: translateX(-20%) skewX(30deg); opacity: 1; }
+  80% { -webkit-transform: translateX(0%) skewX(-15deg); -ms-transform: translateX(0%) skewX(-15deg); transform: translateX(0%) skewX(-15deg); opacity: 1; }
+  100% { -webkit-transform: translateX(0%) skewX(0deg); -ms-transform: translateX(0%) skewX(0deg); transform: translateX(0%) skewX(0deg); opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.lightSpeedIn { -webkit-animation-name: lightSpeedIn; animation-name: lightSpeedIn; -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; }
+
+@-webkit-keyframes lightSpeedOut { 0% { -webkit-transform: translateX(0%) skewX(0deg); transform: translateX(0%) skewX(0deg); opacity: 1; }
+  100% { -webkit-transform: translateX(100%) skewX(-30deg); transform: translateX(100%) skewX(-30deg); opacity: 0; } }
+@keyframes lightSpeedOut { 0% { -webkit-transform: translateX(0%) skewX(0deg); -ms-transform: translateX(0%) skewX(0deg); transform: translateX(0%) skewX(0deg); opacity: 1; }
+  100% { -webkit-transform: translateX(100%) skewX(-30deg); -ms-transform: translateX(100%) skewX(-30deg); transform: translateX(100%) skewX(-30deg); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.lightSpeedOut { -webkit-animation-name: lightSpeedOut; animation-name: lightSpeedOut; -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; }
+
+@-webkit-keyframes rotateIn { 0% { -webkit-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(-200deg); transform: rotate(-200deg); opacity: 0; }
+  100% { -webkit-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@keyframes rotateIn { 0% { -webkit-transform-origin: center center; -ms-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(-200deg); -ms-transform: rotate(-200deg); transform: rotate(-200deg); opacity: 0; }
+  100% { -webkit-transform-origin: center center; -ms-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateIn { -webkit-animation-name: rotateIn; animation-name: rotateIn; }
+
+@-webkit-keyframes rotateInDownLeft { 0% { -webkit-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); opacity: 0; }
+  100% { -webkit-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@keyframes rotateInDownLeft { 0% { -webkit-transform-origin: left bottom; -ms-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); opacity: 0; }
+  100% { -webkit-transform-origin: left bottom; -ms-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateInDownLeft { -webkit-animation-name: rotateInDownLeft; animation-name: rotateInDownLeft; }
+
+@-webkit-keyframes rotateInDownRight { 0% { -webkit-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(90deg); transform: rotate(90deg); opacity: 0; }
+  100% { -webkit-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@keyframes rotateInDownRight { 0% { -webkit-transform-origin: right bottom; -ms-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); opacity: 0; }
+  100% { -webkit-transform-origin: right bottom; -ms-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateInDownRight { -webkit-animation-name: rotateInDownRight; animation-name: rotateInDownRight; }
+
+@-webkit-keyframes rotateInUpLeft { 0% { -webkit-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(90deg); transform: rotate(90deg); opacity: 0; }
+  100% { -webkit-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@keyframes rotateInUpLeft { 0% { -webkit-transform-origin: left bottom; -ms-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); opacity: 0; }
+  100% { -webkit-transform-origin: left bottom; -ms-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateInUpLeft { -webkit-animation-name: rotateInUpLeft; animation-name: rotateInUpLeft; }
+
+@-webkit-keyframes rotateInUpRight { 0% { -webkit-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); opacity: 0; }
+  100% { -webkit-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@keyframes rotateInUpRight { 0% { -webkit-transform-origin: right bottom; -ms-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); opacity: 0; }
+  100% { -webkit-transform-origin: right bottom; -ms-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateInUpRight { -webkit-animation-name: rotateInUpRight; animation-name: rotateInUpRight; }
+
+@-webkit-keyframes rotateOut { 0% { -webkit-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(200deg); transform: rotate(200deg); opacity: 0; } }
+@keyframes rotateOut { 0% { -webkit-transform-origin: center center; -ms-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: center center; -ms-transform-origin: center center; transform-origin: center center; -webkit-transform: rotate(200deg); -ms-transform: rotate(200deg); transform: rotate(200deg); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateOut { -webkit-animation-name: rotateOut; animation-name: rotateOut; }
+
+@-webkit-keyframes rotateOutDownLeft { 0% { -webkit-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(90deg); transform: rotate(90deg); opacity: 0; } }
+@keyframes rotateOutDownLeft { 0% { -webkit-transform-origin: left bottom; -ms-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: left bottom; -ms-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateOutDownLeft { -webkit-animation-name: rotateOutDownLeft; animation-name: rotateOutDownLeft; }
+
+@-webkit-keyframes rotateOutDownRight { 0% { -webkit-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); opacity: 0; } }
+@keyframes rotateOutDownRight { 0% { -webkit-transform-origin: right bottom; -ms-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: right bottom; -ms-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateOutDownRight { -webkit-animation-name: rotateOutDownRight; animation-name: rotateOutDownRight; }
+
+@-webkit-keyframes rotateOutUpLeft { 0% { -webkit-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); opacity: 0; } }
+@keyframes rotateOutUpLeft { 0% { -webkit-transform-origin: left bottom; -ms-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: left bottom; -ms-transform-origin: left bottom; transform-origin: left bottom; -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateOutUpLeft { -webkit-animation-name: rotateOutUpLeft; animation-name: rotateOutUpLeft; }
+
+@-webkit-keyframes rotateOutUpRight { 0% { -webkit-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(90deg); transform: rotate(90deg); opacity: 0; } }
+@keyframes rotateOutUpRight { 0% { -webkit-transform-origin: right bottom; -ms-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); opacity: 1; }
+  100% { -webkit-transform-origin: right bottom; -ms-transform-origin: right bottom; transform-origin: right bottom; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rotateOutUpRight { -webkit-animation-name: rotateOutUpRight; animation-name: rotateOutUpRight; }
+
+@-webkit-keyframes slideInDown { 0% { opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); }
+  100% { -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes slideInDown { 0% { opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); }
+  100% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.slideInDown { -webkit-animation-name: slideInDown; animation-name: slideInDown; }
+
+@-webkit-keyframes slideInLeft { 0% { opacity: 0; -webkit-transform: translateX(-2000px); transform: translateX(-2000px); }
+  100% { -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes slideInLeft { 0% { opacity: 0; -webkit-transform: translateX(-2000px); -ms-transform: translateX(-2000px); transform: translateX(-2000px); }
+  100% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.slideInLeft { -webkit-animation-name: slideInLeft; animation-name: slideInLeft; }
+
+@-webkit-keyframes slideInRight { 0% { opacity: 0; -webkit-transform: translateX(2000px); transform: translateX(2000px); }
+  100% { -webkit-transform: translateX(0); transform: translateX(0); } }
+@keyframes slideInRight { 0% { opacity: 0; -webkit-transform: translateX(2000px); -ms-transform: translateX(2000px); transform: translateX(2000px); }
+  100% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.slideInRight { -webkit-animation-name: slideInRight; animation-name: slideInRight; }
+
+@-webkit-keyframes slideOutLeft { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(-2000px); transform: translateX(-2000px); } }
+@keyframes slideOutLeft { 0% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(-2000px); -ms-transform: translateX(-2000px); transform: translateX(-2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.slideOutLeft { -webkit-animation-name: slideOutLeft; animation-name: slideOutLeft; }
+
+@-webkit-keyframes slideOutRight { 0% { -webkit-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(2000px); transform: translateX(2000px); } }
+@keyframes slideOutRight { 0% { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
+  100% { opacity: 0; -webkit-transform: translateX(2000px); -ms-transform: translateX(2000px); transform: translateX(2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.slideOutRight { -webkit-animation-name: slideOutRight; animation-name: slideOutRight; }
+
+@-webkit-keyframes slideOutUp { 0% { -webkit-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); } }
+@keyframes slideOutUp { 0% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.slideOutUp { -webkit-animation-name: slideOutUp; animation-name: slideOutUp; }
+
+@-webkit-keyframes slideInUp { 0% { opacity: 0; -webkit-transform: translateY(2000px); transform: translateY(2000px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes slideInUp { 0% { opacity: 0; -webkit-transform: translateY(2000px); -ms-transform: translateY(2000px); transform: translateY(2000px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.slideInUp { -webkit-animation-name: slideInUp; animation-name: slideInUp; }
+
+@-webkit-keyframes slideOutDown { 0% { -webkit-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(2000px); transform: translateY(2000px); } }
+@keyframes slideOutDown { 0% { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+  100% { opacity: 0; -webkit-transform: translateY(2000px); -ms-transform: translateY(2000px); transform: translateY(2000px); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.slideOutDown { -webkit-animation-name: slideOutDown; animation-name: slideOutDown; }
+
+@-webkit-keyframes hinge { 0% { -webkit-transform: rotate(0); transform: rotate(0); -webkit-transform-origin: top left; transform-origin: top left; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  20%,60% { -webkit-transform: rotate(80deg); transform: rotate(80deg); -webkit-transform-origin: top left; transform-origin: top left; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  40% { -webkit-transform: rotate(60deg); transform: rotate(60deg); -webkit-transform-origin: top left; transform-origin: top left; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  80% { -webkit-transform: rotate(60deg) translateY(0); transform: rotate(60deg) translateY(0); -webkit-transform-origin: top left; transform-origin: top left; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; opacity: 1; }
+  100% { -webkit-transform: translateY(700px); transform: translateY(700px); opacity: 0; } }
+@keyframes hinge { 0% { -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0); -webkit-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  20%,60% { -webkit-transform: rotate(80deg); -ms-transform: rotate(80deg); transform: rotate(80deg); -webkit-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  40% { -webkit-transform: rotate(60deg); -ms-transform: rotate(60deg); transform: rotate(60deg); -webkit-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  80% { -webkit-transform: rotate(60deg) translateY(0); -ms-transform: rotate(60deg) translateY(0); transform: rotate(60deg) translateY(0); -webkit-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; opacity: 1; }
+  100% { -webkit-transform: translateY(700px); -ms-transform: translateY(700px); transform: translateY(700px); opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.hinge { -webkit-animation-name: hinge; animation-name: hinge; }
+
+@-webkit-keyframes rollIn { 0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); transform: translateX(-100%) rotate(-120deg); }
+  100% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); transform: translateX(0px) rotate(0deg); } }
+@keyframes rollIn { 0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); -ms-transform: translateX(-100%) rotate(-120deg); transform: translateX(-100%) rotate(-120deg); }
+  100% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); transform: translateX(0px) rotate(0deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rollIn { -webkit-animation-name: rollIn; animation-name: rollIn; }
+
+@-webkit-keyframes rollOut { 0% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); transform: translateX(0px) rotate(0deg); }
+  100% { opacity: 0; -webkit-transform: translateX(100%) rotate(120deg); transform: translateX(100%) rotate(120deg); } }
+@keyframes rollOut { 0% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); transform: translateX(0px) rotate(0deg); }
+  100% { opacity: 0; -webkit-transform: translateX(100%) rotate(120deg); -ms-transform: translateX(100%) rotate(120deg); transform: translateX(100%) rotate(120deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.rollOut { -webkit-animation-name: rollOut; animation-name: rollOut; }
+
+@-webkit-keyframes zoomIn { 0% { opacity: 0; -webkit-transform: scale(0.3); transform: scale(0.3); }
+  50% { opacity: 1; } }
+@keyframes zoomIn { 0% { opacity: 0; -webkit-transform: scale(0.3); -ms-transform: scale(0.3); transform: scale(0.3); }
+  50% { opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomIn { -webkit-animation-name: zoomIn; animation-name: zoomIn; }
+
+@-webkit-keyframes zoomInDown { 0% { opacity: 0; -webkit-transform: scale(0.1) translateY(-2000px); transform: scale(0.1) translateY(-2000px); -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  60% { opacity: 1; -webkit-transform: scale(0.475) translateY(60px); transform: scale(0.475) translateY(60px); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; } }
+@keyframes zoomInDown { 0% { opacity: 0; -webkit-transform: scale(0.1) translateY(-2000px); -ms-transform: scale(0.1) translateY(-2000px); transform: scale(0.1) translateY(-2000px); -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  60% { opacity: 1; -webkit-transform: scale(0.475) translateY(60px); -ms-transform: scale(0.475) translateY(60px); transform: scale(0.475) translateY(60px); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomInDown { -webkit-animation-name: zoomInDown; animation-name: zoomInDown; }
+
+@-webkit-keyframes zoomInLeft { 0% { opacity: 0; -webkit-transform: scale(0.1) translateX(-2000px); transform: scale(0.1) translateX(-2000px); -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  60% { opacity: 1; -webkit-transform: scale(0.475) translateX(48px); transform: scale(0.475) translateX(48px); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; } }
+@keyframes zoomInLeft { 0% { opacity: 0; -webkit-transform: scale(0.1) translateX(-2000px); -ms-transform: scale(0.1) translateX(-2000px); transform: scale(0.1) translateX(-2000px); -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  60% { opacity: 1; -webkit-transform: scale(0.475) translateX(48px); -ms-transform: scale(0.475) translateX(48px); transform: scale(0.475) translateX(48px); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomInLeft { -webkit-animation-name: zoomInLeft; animation-name: zoomInLeft; }
+
+@-webkit-keyframes zoomInRight { 0% { opacity: 0; -webkit-transform: scale(0.1) translateX(2000px); transform: scale(0.1) translateX(2000px); -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  60% { opacity: 1; -webkit-transform: scale(0.475) translateX(-48px); transform: scale(0.475) translateX(-48px); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; } }
+@keyframes zoomInRight { 0% { opacity: 0; -webkit-transform: scale(0.1) translateX(2000px); -ms-transform: scale(0.1) translateX(2000px); transform: scale(0.1) translateX(2000px); -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  60% { opacity: 1; -webkit-transform: scale(0.475) translateX(-48px); -ms-transform: scale(0.475) translateX(-48px); transform: scale(0.475) translateX(-48px); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomInRight { -webkit-animation-name: zoomInRight; animation-name: zoomInRight; }
+
+@-webkit-keyframes zoomInUp { 0% { opacity: 0; -webkit-transform: scale(0.1) translateY(2000px); transform: scale(0.1) translateY(2000px); -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  60% { opacity: 1; -webkit-transform: scale(0.475) translateY(-60px); transform: scale(0.475) translateY(-60px); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; } }
+@keyframes zoomInUp { 0% { opacity: 0; -webkit-transform: scale(0.1) translateY(2000px); -ms-transform: scale(0.1) translateY(2000px); transform: scale(0.1) translateY(2000px); -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; }
+  60% { opacity: 1; -webkit-transform: scale(0.475) translateY(-60px); -ms-transform: scale(0.475) translateY(-60px); transform: scale(0.475) translateY(-60px); -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomInUp { -webkit-animation-name: zoomInUp; animation-name: zoomInUp; }
+
+@-webkit-keyframes zoomOut { 0% { opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
+  50% { opacity: 0; -webkit-transform: scale(0.3); transform: scale(0.3); }
+  100% { opacity: 0; } }
+@keyframes zoomOut { 0% { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
+  50% { opacity: 0; -webkit-transform: scale(0.3); -ms-transform: scale(0.3); transform: scale(0.3); }
+  100% { opacity: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomOut { -webkit-animation-name: zoomOut; animation-name: zoomOut; }
+
+@-webkit-keyframes zoomOutDown { 40% { opacity: 1; -webkit-transform: scale(0.475) translateY(-60px); transform: scale(0.475) translateY(-60px); -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+  100% { opacity: 0; -webkit-transform: scale(0.1) translateY(2000px); transform: scale(0.1) translateY(2000px); -webkit-transform-origin: center bottom; transform-origin: center bottom; } }
+@keyframes zoomOutDown { 40% { opacity: 1; -webkit-transform: scale(0.475) translateY(-60px); -ms-transform: scale(0.475) translateY(-60px); transform: scale(0.475) translateY(-60px); -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+  100% { opacity: 0; -webkit-transform: scale(0.1) translateY(2000px); -ms-transform: scale(0.1) translateY(2000px); transform: scale(0.1) translateY(2000px); -webkit-transform-origin: center bottom; -ms-transform-origin: center bottom; transform-origin: center bottom; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomOutDown { -webkit-animation-name: zoomOutDown; animation-name: zoomOutDown; }
+
+@-webkit-keyframes zoomOutLeft { 40% { opacity: 1; -webkit-transform: scale(0.475) translateX(42px); transform: scale(0.475) translateX(42px); -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+  100% { opacity: 0; -webkit-transform: scale(0.1) translateX(-2000px); transform: scale(0.1) translateX(-2000px); -webkit-transform-origin: left center; transform-origin: left center; } }
+@keyframes zoomOutLeft { 40% { opacity: 1; -webkit-transform: scale(0.475) translateX(42px); -ms-transform: scale(0.475) translateX(42px); transform: scale(0.475) translateX(42px); -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+  100% { opacity: 0; -webkit-transform: scale(0.1) translateX(-2000px); -ms-transform: scale(0.1) translateX(-2000px); transform: scale(0.1) translateX(-2000px); -webkit-transform-origin: left center; -ms-transform-origin: left center; transform-origin: left center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomOutLeft { -webkit-animation-name: zoomOutLeft; animation-name: zoomOutLeft; }
+
+@-webkit-keyframes zoomOutRight { 40% { opacity: 1; -webkit-transform: scale(0.475) translateX(-42px); transform: scale(0.475) translateX(-42px); -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+  100% { opacity: 0; -webkit-transform: scale(0.1) translateX(2000px); transform: scale(0.1) translateX(2000px); -webkit-transform-origin: right center; transform-origin: right center; } }
+@keyframes zoomOutRight { 40% { opacity: 1; -webkit-transform: scale(0.475) translateX(-42px); -ms-transform: scale(0.475) translateX(-42px); transform: scale(0.475) translateX(-42px); -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+  100% { opacity: 0; -webkit-transform: scale(0.1) translateX(2000px); -ms-transform: scale(0.1) translateX(2000px); transform: scale(0.1) translateX(2000px); -webkit-transform-origin: right center; -ms-transform-origin: right center; transform-origin: right center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomOutRight { -webkit-animation-name: zoomOutRight; animation-name: zoomOutRight; }
+
+@-webkit-keyframes zoomOutUp { 40% { opacity: 1; -webkit-transform: scale(0.475) translateY(60px); transform: scale(0.475) translateY(60px); -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+  100% { opacity: 0; -webkit-transform: scale(0.1) translateY(-2000px); transform: scale(0.1) translateY(-2000px); -webkit-transform-origin: center top; transform-origin: center top; } }
+@keyframes zoomOutUp { 40% { opacity: 1; -webkit-transform: scale(0.475) translateY(60px); -ms-transform: scale(0.475) translateY(60px); transform: scale(0.475) translateY(60px); -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+  100% { opacity: 0; -webkit-transform: scale(0.1) translateY(-2000px); -ms-transform: scale(0.1) translateY(-2000px); transform: scale(0.1) translateY(-2000px); -webkit-transform-origin: center top; -ms-transform-origin: center top; transform-origin: center top; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/base\/_animate\.scss}line{font-family:\0000312}}
+.zoomOutUp { -webkit-animation-name: zoomOutUp; animation-name: zoomOutUp; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000318}}
 ul { list-style: none; margin: 0; padding: 0; }
-ul li { visibility: hidden; overflow: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -moz-transform-style: preserve-3d; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; float: left; width: 450px; }
-ul li img { width: 100% !important; position: relative !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000322}}
+ul li.item { visibility: hidden; overflow: hidden; -moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -moz-transform-style: preserve-3d; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; float: left; width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000336}}
+ul li.item img { width: 100% !important; position: relative !important; }
 
-.active { z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000346}}
+.active { z-index: 1; visibility: visible !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000351}}
 .image .inner { overflow: hidden; width: 100%; height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000356}}
 .image ul { width: 20000em; position: relative; list-style: none; margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000362}}
 .image ul li { float: left; width: 450px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000366}}
 .image ul li img { width: 100% !important; position: relative !important; }
 
-.swipeslider_prev, .swipeslider_next { position: absolute; bottom: 0; z-index: 9999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000374}}
+.swipeslider_prev, .swipeslider_next { position: absolute; top: 50%; z-index: 9999; margin-top: -20px; padding: 20px; color: #fff; background-color: #333; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000383}}
 .swipeslider_prev { left: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000387}}
 .swipeslider_next { right: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/Sites\/localhost\/swipeslider\/src\/sass\/main\.scss}line{font-family:\0000391}}
 .swipeslider_anim_current, .no-js .pt-page { visibility: visible; z-index: 1; }
