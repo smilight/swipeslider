@@ -1,0 +1,87 @@
+@import 'compass'; 
+ 
+
+@import "base/palette"; 
+@import "base/animations";
+@import "base/fonts";
+@import "base/mymixins";
+
+
+
+
+// base styles
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li{
+//		  width: 100%;
+//  height: 100%;
+//  position: absolute;
+//  top: 0;
+//  left: 0;
+  visibility: hidden;
+  overflow: hidden;
+  @include backface-visibility(hidden);
+  @include transform(translate3d(0, 0, 0));
+  @include transform-style(preserve-3d);
+      float: left;
+//      position: relative !important;
+      width: 450px;
+      img{
+        width: 100% !important;
+        position: relative !important;
+      }
+
+
+	}
+}
+
+
+.active{
+  z-index: 1;
+//  visibility: visible !important;
+}
+.image{
+  .inner{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  ul{
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+      float: left;
+      width: 450px;
+
+      img{
+        width: 100% !important;
+        position: relative !important;
+      }
+    }
+  }
+}
+
+.swipeslider_prev,.swipeslider_next{
+  position: absolute;
+  bottom: 0;
+  z-index: 9999;
+}
+.swipeslider_prev{
+  left: 0;
+}
+
+.swipeslider_next{
+  right: 0;
+}
+
+.swipeslider_anim_current,
+.no-js .pt-page {
+  visibility: visible;
+  z-index: 1;
+}

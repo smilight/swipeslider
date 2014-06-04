@@ -1,0 +1,9 @@
+/log
+/temp
+/node_modules
+/config/testing.ini
+/public/web.config
+/.buildpath
+/.project
+/.settings
+
