@@ -1,0 +1,125 @@
+@import 'compass';
+
+
+//base styles
+
+.swipeslider{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  >li{
+    visibility: hidden;
+    overflow: hidden;
+    @include backface-visibility(hidden);
+    @include transform(translate3d(0, 0, 0));
+    @include transform-style(preserve-3d);
+    float: left;
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  .active{
+    z-index: 1;
+    visibility: visible !important;
+  }
+}
+
+// base controlls
+.swipeslider_prev,.swipeslider_next{
+  position: absolute;
+  top: 50%;
+  z-index: 9999;
+  margin-top: -20px;
+  padding: 20px;
+  color:#fff;
+  background-color: #333;
+  cursor: pointer;
+  &.disabled{
+    @include opacity(.5);
+  }
+}
+.swipeslider_prev{
+  left: 0;
+}
+.swipeslider_next{
+  right: 0;
+}
+.swipeslider_anim_current,
+.no-js .pt-page {
+  visibility: visible;
+  z-index: 1;
+}
+
+
+
+//--------------------------- thumbs
+
+.swipeslider_navigation{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 700px;
+  margin-left: -350px;
+
+  height: 140px;
+  background: #333333;
+  z-index: 9;
+  overflow: hidden;
+  border: 15px solid #333;
+  .swipeslider_conn_prev,.swipeslider_conn_next{
+    background: none repeat scroll 0 0 #333333;
+    height: auto;
+    margin-top: -25px;
+    padding: 15px 5px;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: #ffffff;
+    z-index: 9;
+    cursor: pointer;
+  }
+  .swipeslider_conn_prev{
+    left: 0px;}
+  .swipeslider_conn_next{
+    right: 0px;}
+  .swipeslider_thumbnails{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    li{
+      position: relative;
+      display: block;
+      width: 150px;
+      @include filter(grayscale(100%) blur(1px));
+      filter: url(blur.svg#blur);
+      filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+      float: left;
+      &.active{
+        position: relative;
+        @include filter(blur(0) grayscale(0));
+        filter: none;
+        filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+
+        &:after{
+          display:block;
+          content:'';
+          position:absolute;
+          width:100%;
+          height:100%;
+          @include box-shadow(inset 0px 0px 3px 3px rgba(0, 0, 0, 0.4));
+          top: 0;
+          left: 0;
+        }
+
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

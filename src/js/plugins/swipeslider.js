@@ -42,8 +42,8 @@
             item = el.find('li'),
             itemsCount = item.length,
             inClass = '',
-            curent = 0,
-            startClass = mainCarousel.find('li').attr('class');
+//            curent = 0,
+            startClass = mainCarousel.find('li').attr('class'),
         outClass = '';
         /*---------------------- end variables -------------------------*/
 
@@ -51,9 +51,12 @@
             init: function () {
                 this.modernizr();
                 this.css();
+                this.connected();
+                this.infinite();
                 this.addArrows();
                 this.arrowControlls();
-                this.infinite();
+
+
             },
             /*---------------------- check for modernizr for visual effects. if not add modernizr -------------------------*/
             modernizr: function () {
@@ -63,8 +66,8 @@
                 } else {
                     var fileref = document.createElement('script'),
                         link = 'http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js';
-                    fileref.setAttribute("type", "text/javascript")
-                    fileref.setAttribute("src", link)
+                    fileref.setAttribute("type", "text/javascript");
+                    fileref.setAttribute("src", link);
                     document.getElementsByTagName("head")[0].appendChild(fileref)
                 }
 
@@ -97,7 +100,7 @@
                         'top': 0,
                         'left': 0,
                         'visibility': 'visible'
-                    })
+                    });
                     el.width(itemsCount * item.width());
                 } else {
                     item.css({
@@ -132,25 +135,27 @@
 
             /*------------- add controlls elements -------------------------*/
             addArrows: function () {
-                mainCarousel.parent()
+                mainCarousel
+                    .parent()
                     .append('' +
                         '<i class="' +
                         options.prevBtn +
                         '">' +
                         options.prevBtnText +
-                        '</i><i href="#" class="' +
+                        '</i><i class="' +
                         options.nextBtn +
                         '">' +
                         options.nextBtnText +
                         '</i>');
 
-                if (options.connected == true) {
+                if (options.connBtns == true) {
                     conCarousel
+                        .parent()
                         .append('<i class="' +
                             options.connPrev +
                             '">' +
                             options.connPrevText +
-                            '</i><i href="#" class="' +
+                            '</i><i class="' +
                             options.connNext +
                             '">' +
                             options.connNextText +
@@ -184,10 +189,37 @@
 
 
                 /*---------------------- check if not circular carousel and disable prev btn -------------------------*/
-                if (options.wrap.indexOf('circular') == -1) {
+                if(options.connected !== false && options.wrap.indexOf('circular') == -1){
+                    $('.' + options.prevBtn+',.' + options.connPrev).addClass('disabled');
+                } else if(options.wrap.indexOf('circular') == -1){
                     $('.' + options.prevBtn).addClass('disabled');
                 }
+
+                this.debug(options.wrap.indexOf('circular') );
                 /*---------------------- end check if not circular carousel and disable prev btn -------------------------*/
+
+                /*---------------------------------- add controlls an controlls functions to connected carousel -------------------------*/
+
+                if (options.connBtns == true) {
+                    $('.' + options.connNext).on('click', function (e) {
+                        e.preventDefault();
+//                        if (options.effects == false) {
+                            self.simpleMove(conCarousel,$(this));
+//                        } else {
+//                            self.css3move(conCarousel, $(this));
+//                        }
+                    });
+
+                    $('.' + options.connPrev).on('click', function (e) {
+                        e.preventDefault();
+//                        if (options.effects == false) {
+                            self.simpleMove(conCarousel,$(this));
+//                        } else {
+//                            self.css3move(conCarousel, $(this));
+//                        }
+                    });
+                }
+
             },
             /*------------- end all controlls functions -------------------------*/
 
@@ -195,51 +227,45 @@
             simpleMove: function (carousel, buttom) {
                 var dir = '',
                     dirOp = '',
-                    otherBtn = '',
+//                    otherBtn = '',
                     self = this,
-                    btn = buttom;
+                    btn = buttom,
+                    carouselItem = carousel.find('li'),
+                    carouselItems = carouselItem.length;
 
 
                 if (buttom.attr('class').indexOf('next') !== -1) {
                     dir = '-';
                     dirOp = '';
-                    otherBtn = 'prev';
+//                    otherBtn = 'prev';
                 } else {
                     dir = '+';
                     dirOp = '-';
-                    otherBtn = 'next';
+//                    otherBtn = 'next';
                 }
 
                 if (!btn.hasClass('inactive') && !btn.hasClass('disabled')) {
-                    btn.siblings('[class*="' + otherBtn + '"]').removeClass('disabled')
+                    btn.siblings('[class*="prev"],[class*="next"]').removeClass('disabled');
 
                     self.disEnButtons(btn, 'disable');
 
                     carousel.animate({
-                            left: dir + '=' + item.outerWidth(true) + 'px'
+                            left: dir + '=' + carouselItem.outerWidth(true) + 'px'
                         }, 300,
                         function () {
                             if (carousel.css('left') == '0px') {
                                 if (options.wrap == 'circular') {
-                                    $(this).css('left', dirOp + (item.outerWidth(true) * itemsCount + 'px'));
-                                } else {
-                                    btn.addClass('disabled');
+                                    $(this).css('left', dirOp + (carouselItem.outerWidth(true) * carouselItems + 'px'));
                                 }
                             }
-                            if (carousel.css('left') == '-' + (item.outerWidth(true) * (options.quantity + itemsCount) - item.outerWidth(true)*2) + 'px') {
+                            if (carousel.css('left') == '-' + (carouselItem.outerWidth(true) * (options.quantity + carouselItems) - carouselItem.outerWidth(true)*2) + 'px') {
                                 if (options.wrap == 'circular') {
-                                    $(this).css('left', '-' + (item.outerWidth(true) * itemsCount-item.outerWidth(true) + 'px'));
-                                } else {
-                                    btn.addClass('disabled');
+                                    $(this).css('left', '-' + (carouselItem.outerWidth(true) * itemsCount-carouselItem.outerWidth(true) + 'px'));
                                 }
                             }
-
+                            self.setactive(carousel);
                             self.disEnButtons(btn, 'enable');
 
-                            // set active class if connected carousel
-//                        if (options.connected == true) {
-//                            setactive(carousel);
-//                        }
 
                         }
                     )
@@ -251,8 +277,7 @@
             css3move: function (carousel, buttom) {
                 /*---------------------------------- variables -------------------------*/
 
-                var otherBtn = '',
-                    self = this,
+                var self = this,
                     btn = buttom,
                     effect = '"' + options.effect + '"';
                 /*---------------------------------- end variables -------------------------*/
@@ -275,15 +300,15 @@
                 if (buttom.attr('class').indexOf('next') !== -1) {
                         nextPage = activePage.next();
                         prevPage = activePage.prev();
-                    otherBtn = 'prev';
+//                    otherBtn = 'prev';
                 } else {
                         nextPage = activePage.prev();
                         prevPage = activePage.next();
-                    otherBtn = 'next';
+//                    otherBtn = 'next';
                 }
 
                 if (!btn.hasClass('inactive') && !btn.hasClass('disabled')) {
-                    btn.siblings('[class*="prev"],[class*="next"]').removeClass('disabled')
+                    btn.siblings('[class*="prev"],[class*="next"]').removeClass('disabled');
 
                     self.disEnButtons(btn, 'disable');
 
@@ -303,17 +328,7 @@
 
                             self.disEnButtons(btn, 'enable');
 
-
-                            self.debug('active item index '+parseInt(mainCarousel.find('.active').index()))
-                            self.debug('first item index '+parseInt(item.eq(0).index()))
-                            self.debug('last item index '+parseInt(item.eq(-1).index()))
-
-                            if (parseInt(mainCarousel.find('.active').index()) === parseInt(item.eq(-1).index()) && options.wrap !== 'circular') {
-                                btn.addClass('disabled');
-                            }
-                            if (parseInt(mainCarousel.find('.active').index()) === parseInt(item.eq(0).index()) && options.wrap !== 'circular') {
-                                btn.addClass('disabled');
-                            }
+                            self.setactive(mainCarousel);
                         }
                     );
                 }
@@ -325,15 +340,57 @@
             },
             /*------------- set active elements only if connected carousel -------------------------*/
             setactive: function (carousel) {
-                var activeNum = Math.abs(Math.floor(parseInt(carousel.css('left')) / parseInt(carousel.find('li').width())));
+                var activeNum = '';
 
-                mainCarousel.find('li').removeClass('active').eq(activeNum).addClass('active');
-                conCarousel.find('li').removeClass('active').eq(activeNum).addClass('active');
-                if (carousel.parent().attr('class').indexOf(conCarousel.attr('class'))) {
-                    mainCarousel.animate({
-                        'left': '-' + activeNum * mainCarousel.find('li').width()
-                    })
+                if(options.effects==false){
+
+                activeNum = Math.abs(Math.floor(parseInt(carousel.css('left')) / parseInt(carousel.find('li').width())));
+
+                } else{
+                    activeNum = carousel.find('li.active').index();
                 }
+                this.debug('setactive slide #' +activeNum);
+
+                if(carousel == mainCarousel && options.wrap !=='circular'){
+                    conCarousel
+                        .find('li')
+                        .removeClass('active')
+                        .eq(activeNum)
+                        .addClass('active');
+                }
+
+                $('.'+options.nextBtn+',.'+options.prevBtn).removeClass('disabled');
+                if (parseInt(mainCarousel.find('.active').index()) === parseInt(item.eq(-1).index()) && options.wrap !== 'circular') {
+                    $('.'+options.nextBtn).addClass('disabled');
+                }
+                if (parseInt(mainCarousel.find('.active').index()) === parseInt(item.eq(0).index()) && options.wrap !== 'circular') {
+                    $('.'+options.prevBtn).addClass('disabled');
+                }
+
+                if(options.connected == true){
+
+                    $('.'+options.connNext+',.'+options.connPrev).removeClass('disabled');
+
+                    if (parseInt(conCarousel.find('.active').index()) === parseInt(item.eq(-1).index()) && options.wrap !== 'circular') {
+                        $('.'+options.connNext).addClass('disabled');
+                    }
+                    if (parseInt(conCarousel.find('.active').index()) === parseInt(item.eq(0).index()) && options.wrap !== 'circular') {
+                        $('.'+options.connPrev).addClass('disabled');
+                    }
+                }
+
+                this.debug('active item index '+parseInt(mainCarousel.find('.active').index()));
+                this.debug('first item index '+parseInt(item.eq(0).index()));
+                this.debug('last item index '+parseInt(item.eq(-1).index()));
+
+
+//                mainCarousel.find('li').removeClass('active').eq(activeNum).addClass('active');
+//                conCarousel.find('li').removeClass('active').eq(activeNum).addClass('active');
+//                if (carousel.parent().attr('class').indexOf(conCarousel.attr('class'))) {
+//                    mainCarousel.animate({
+//                        'left': '-' + activeNum * mainCarousel.find('li').width()
+//                    })
+//                }
             },
             /*------------- end set active elements only if connected carousel -------------------------*/
 
@@ -373,7 +430,7 @@
                     });
                     sliderLast = tmp;
 
-                    var elRealQuant = el.find('li').length; //реальное колличество эллементов
+//                    var elRealQuant = el.find('li').length; //реальное колличество эллементов
                     el.append(sliderFirst);
                     el.prepend(sliderLast);
 
@@ -392,120 +449,175 @@
             /*------------- connected carousel -------------------------*/
             connected: function () {
                 if (options.connected == true) {
-                    var thisClass = conCarousel.attr('class'),
-                        item = conCarousel.find('li');
+                    /*---------------------------------- variables -------------------------*/
 
+                    var itemCon = conCarousel.find('li'),
+                        self = this,
+                        activeConPage = '',
+                        activePage ='',
+                        nextPage = '',
+                        prevPage='',
+                        nextConPage='';
+                    /*---------------------------------- end variables -------------------------*/
+
+                    /*---------------------------------- css function like wrap and add styles -------------------------*/
                     conCarousel
 
                         // wrap with div
                         .wrap('' +
                             '<div class="swipeslider_navigation"/>' +
                             '')
-
                         // add position and size for ul
                         .css({
                             'position': 'relative',
                             width: (item.outerWidth(true) * item.length) / options.connRows
                         });
 
-                    // activate picture from main carousel on click connected carousel item
-                    item.on('click', function (e) {
+                    //set first item active
+                    conCarousel.find('li:first').addClass('active');
+
+                    /*---------------------------------- end css function like wrap and add styles -------------------------*/
+
+                    /*---------------------------------- activate picture from main carousel on click connected carousel item -------------------------*/
+                    itemCon.on('click', function (e) {
                         e.preventDefault();
+                        if(!$(this).hasClass('active')){
 
-                        mainCarousel.find('li').removeClass('active');
-                        conCarousel.find('li').removeClass('active');
+                        if(options.effects == false){
+                            mainCarousel.find('li').removeClass('active');
+                            conCarousel.find('li').removeClass('active');
 
-                        var thisItem = $(this).index();
+                            var thisItem = $(this).index();
 
-                        mainCarousel
-                            .animate({
-                                'left': '-' + mainCarousel.find('li').width() * thisItem
-                            })
-                            .find('li')
-                            .eq(thisItem)
-                            .addClass('active');
+                            mainCarousel
+                                .animate({
+                                    'left': '-' + mainCarousel.find('li').width() * thisItem
+                                })
+                                .find('li')
+                                .eq(thisItem)
+                                .addClass('active');
 
-                        $(this).addClass('active');
-                    })
+                            $(this).addClass('active');
+                        } else{
+                            activePage = mainCarousel.find('.active');
 
-                    if (options.connBtns == true) {
-                        conCarousel
-                            //add arrows
-                            .after('<i class="' + options.connPrev + '">' + options.connPrevText + '</i><i class="' + options.connNext + '">' + options.connNextText + '</i>')
+                            prevPage = activePage.prev();
+                            activeConPage = conCarousel.find('.active');
+                            nextConPage=$(this);
+                            nextPage = mainCarousel.find('li').eq($(this).index());
 
-                        //add prev btn functionality
-                        this.controlls(options.connPrev, conCarousel);
+                            if (options.effect == 'random') {
+                                self.setAnimation(self.randomGen(1, 67));
+                            } else if (options.effect.indexOf('[') === -1) {
+                                self.setAnimation(self.randomGen(1, options.effect[options.effect.length - 1]));
+                            }
+                            else {
+                                self.setAnimation(options.effect);
+                            }
 
-                        //add next btn functionality
-                        this.controlls(options.connNext, conCarousel);
+
+                                activePage
+                                    .addClass(outClass);
+//                                activeConPage
+//                                    .addClass(outClass);
+
+                                nextPage
+                                    .addClass('swipeslider_anim_current ' + inClass + ' active');
+                                nextConPage
+                                    .addClass('swipeslider_anim_current ' + inClass + ' active');
+
+                                item.on(
+                                    "animationend MSAnimationEnd oAnimationEnd webkitAnimationEnd",
+                                    function () {
+
+                                        activePage.attr('class', startClass);
+                                        prevPage.attr('class', startClass);
+                                        nextPage.attr('class', startClass + ' active swipeslider_anim_current');
+
+                                        self.setactive(mainCarousel);
+                                    }
+                                );
+                                itemCon.on(
+                                    "animationend MSAnimationEnd oAnimationEnd webkitAnimationEnd",
+                                    function () {
+                                        activeConPage.attr('class', startClass);
+//                                        prevPage.attr('class', startClass);
+                                        nextConPage.attr('class', startClass + ' active swipeslider_anim_current');
+                                    }
+                                );
+
+                        }
                     }
+
+                    });
+                    /*---------------------------------- end activate picture from main carousel on click connected carousel item -------------------------*/
                 }
             },
             /*------------- end connected carousel -------------------------*/
 
-            /*------------- css3 animations controlls -----------------------------------------------*/
-            css3effects: function () {
-
-
-                btnclick = function () {
-
-                    /*---------------------------------- variables -------------------------*/
-                    var thisPage = mainCarousel.find('li').eq(page),
-                        nextPage = thisPage.next(),
-                        prevPage = thisPage.prev(),
-                        outClass = '',
-                        inClass = '',
-                        curent = 0,
-                        animation = 1;
-                    /*---------------------------------- end variables -------------------------*/
-
-                    /*---------------------------------- btn on click event -------------------------*/
-                    $('.' + options.nextBtn).click(function (event) {
-                        var btn = $(this);
-                        event.preventDefault();
-                        $(this).addClass('inactive');
-
-
-                        this.setAnimation(options.effect);
-                        thisSLide
-                            .removeClass('active', 'swipeslider_anim_current')
-                            .addClass(outClass)
-                            .next()
-                            .addClass('swipeslider_anim_current ' + inClass + ' active');
-                        thisSLide.prev().attr('class', thisSLide.data('originalClassList'));
-                        console.log(thisSLide.data('originalClassList'));
-
-                        $(this).removeClass('inactive');
-                    });
-                    /*---------------------------------- end btn on click event -------------------------*/
-
-                };
-
-                /*---------------------------------- end switch case animations-------------------------*/
-
-                misc = function () {
-                    /*---------------------------------- get original class name -------------------------*/
-                    item.each(function () {
-                        var $page = $(this);
-                        $page.data('originalClassList', $page.attr('class'));
-                    });
-                    /*---------------------------------- end get original class name -------------------------*/
-
-
-                    function onEndAnimation($outpage, $inpage) {
-                        endCurrPage = false;
-                        endNextPage = false;
-                        resetPage($outpage, $inpage);
-                        isAnimating = false;
-                    }
-
-                    function resetPage($outpage, $inpage) {
-                        $outpage.attr('class', $outpage.data('originalClassList'));
-                        $inpage.attr('class', $inpage.data('originalClassList') + ' swipeslider_anim_current');
-                    }
-                }
-            },
-            /*------------- end css3 animations controlls -----------------------------------------------*/
+//            /*------------- css3 animations controlls -----------------------------------------------*/
+//            css3effects: function () {
+//
+//
+//                btnclick = function () {
+//
+//                    /*---------------------------------- variables -------------------------*/
+//                    var thisPage = mainCarousel.find('li').eq(page),
+//                        nextPage = thisPage.next(),
+//                        prevPage = thisPage.prev(),
+//                        outClass = '',
+//                        inClass = '',
+//                        curent = 0,
+//                        animation = 1;
+//                    /*---------------------------------- end variables -------------------------*/
+//
+//                    /*---------------------------------- btn on click event -------------------------*/
+//                    $('.' + options.nextBtn).click(function (event) {
+//                        var btn = $(this);
+//                        event.preventDefault();
+//                        $(this).addClass('inactive');
+//
+//
+//                        this.setAnimation(options.effect);
+//                        thisSLide
+//                            .removeClass('active', 'swipeslider_anim_current')
+//                            .addClass(outClass)
+//                            .next()
+//                            .addClass('swipeslider_anim_current ' + inClass + ' active');
+//                        thisSLide.prev().attr('class', thisSLide.data('originalClassList'));
+//                        console.log(thisSLide.data('originalClassList'));
+//
+//                        $(this).removeClass('inactive');
+//                    });
+//                    /*---------------------------------- end btn on click event -------------------------*/
+//
+//                };
+//
+//                /*---------------------------------- end switch case animations-------------------------*/
+//
+//                misc = function () {
+//                    /*---------------------------------- get original class name -------------------------*/
+//                    item.each(function () {
+//                        var $page = $(this);
+//                        $page.data('originalClassList', $page.attr('class'));
+//                    });
+//                    /*---------------------------------- end get original class name -------------------------*/
+//
+//
+////                    function onEndAnimation($outpage, $inpage) {
+////                        endCurrPage = false;
+////                        endNextPage = false;
+////                        resetPage($outpage, $inpage);
+////                        isAnimating = false;
+////                    }
+////
+////                    function resetPage($outpage, $inpage) {
+////                        $outpage.attr('class', $outpage.data('originalClassList'));
+////                        $inpage.attr('class', $inpage.data('originalClassList') + ' swipeslider_anim_current');
+////                    }
+//                }
+//            },
+//            /*------------- end css3 animations controlls -----------------------------------------------*/
 
             /*------------- switch case animations-------------------------*/
             setAnimation: function ($animation) {
