@@ -270,7 +270,7 @@ module.exports = function(grunt) {
 
         watch: {
             /* watch to see if the sass files are changed, compile and add prefixes */
-            styles: {
+                styles: {
                 files: ['src/sass/**/*.{scss,sass}'],
                 tasks: ['compass:dev']
             },

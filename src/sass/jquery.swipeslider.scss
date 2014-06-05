@@ -47,8 +47,8 @@
 }
 .swipeslider_anim_current,
 .no-js .pt-page {
-  visibility: visible;
-  z-index: 1;
+  visibility: visible !important;
+  z-index: 1 !important;
 }
 
 

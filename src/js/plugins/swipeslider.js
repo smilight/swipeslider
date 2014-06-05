@@ -59,29 +59,7 @@
                 this.addArrows();
                 this.arrowControlls();
                 this.autoplay();
-                this.touch();
-//                window.onload=function(){
-//                    (function(d){
-//                        var
-//                            ce=function(e,n){var a=document.createEvent("CustomEvent");a.initCustomEvent(n,true,true,e.target);e.target.dispatchEvent(a);a=null;return false},
-//                            nm=true,sp={x:0,y:0},ep={x:0,y:0},
-//                            touch={
-//                                touchstart:function(e){sp={x:e.touches[0].pageX,y:e.touches[0].pageY}},
-//                                touchmove:function(e){nm=false;ep={x:e.touches[0].pageX,y:e.touches[0].pageY}},
-//                                touchend:function(e){if(nm){ce(e,'fc')}else{var x=ep.x-sp.x,xr=Math.abs(x),y=ep.y-sp.y,yr=Math.abs(y);if(Math.max(xr,yr)>20){ce(e,(xr>yr?(x<0?'swl':'swr'):(y<0?'swu':'swd')))}};nm=true},
-//                                touchcancel:function(e){nm=false}
-//                            };
-//                        for(var a in touch){d.addEventListener(a,touch[a],false);}
-//                    })(document);
-////EXAMPLE OF USE
-//                    var h=function(e){console.log(e.type,e)};
-//                    document.body.addEventListener('fc',h,false);// 0-50ms vs 500ms with normal click
-//                    document.body.addEventListener('swipeleft',h,false);
-//                    document.body.addEventListener('swiperight',h,false);
-//                    document.body.addEventListener('swipeup',h,false);
-//                    document.body.addEventListener('swipedown',h,false);
-//                }
-
+//                this.touch();
             },
             /*---------------------- add touch support -------------------------*/
             touch: function(){
@@ -401,7 +379,7 @@
 
                     activePage
                         .removeClass('active')
-                        .addClass(outClass);
+                        .addClass('swipeslider_anim_current '+outClass);
                     nextPage
                         .addClass('swipeslider_anim_current ' + inClass + ' active');
 
