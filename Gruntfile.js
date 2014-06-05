@@ -98,23 +98,23 @@ module.exports = function(grunt) {
         modernizr: {
             "devFile": "src/components/modernizr/modernizr.js",
             "outputFile": "dist/js/vendor/modernizr.js",
-            "extra": {
-                "shiv": true,
-                "printshiv": false,
-                "load": true,
-                "mq": false,
-                "cssclasses": true
-            },
-            "extensibility": {
-                "addtest": false,
-                "prefixed": false,
-                "teststyles": false,
-                "testprops": false,
-                "testallprops": false,
-                "hasevents": false,
-                "prefixes": false,
-                "domprefixes": false
-            },
+//            "extra": {
+//                "shiv": true,
+//                "printshiv": false,
+//                "load": true,
+//                "mq": false,
+//                "cssclasses": true
+//            },
+//            "extensibility": {
+//                "addtest": false,
+//                "prefixed": false,
+//                "teststyles": false,
+//                "testprops": false,
+//                "testallprops": false,
+//                "hasevents": false,
+//                "prefixes": false,
+//                "domprefixes": false
+//            },
             "uglify": true
         },
 
@@ -265,7 +265,7 @@ module.exports = function(grunt) {
         url: 'git@github.com:smilight/swipeslider.git'
       },
       src: 'dist/'
-    },
+    }
   },
 
         watch: {
@@ -286,7 +286,7 @@ module.exports = function(grunt) {
     });
 
     //Task list
-    grunt.registerTask('build', ['clean', 'copy:dist','modernizr' ,'compass:dist', 'autoprefixer:dist', 'concat:dist', 'uglify:dist', 'useminPrepare', 'usemin', 'htmlmin:dist', 'imagemin']);
+    grunt.registerTask('build', ['clean', 'copy:dist' ,'compass:dist', 'modernizr', 'concat:dist', 'uglify:dist', 'useminPrepare', 'usemin', 'htmlmin:dist', 'imagemin']);
     grunt.registerTask('build:dist', ['clean', 'copy:dist', 'compass:dist', 'autoprefixer:dist', 'concat:dist', 'uglify:dist', 'useminPrepare', 'usemin', 'htmlmin:dist', 'imagemin']);
     grunt.registerTask('default', ['watch']);
 };

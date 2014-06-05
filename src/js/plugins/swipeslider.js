@@ -22,12 +22,13 @@
             connPrev: 'swipeslider_conn_prev',
             connPrevText: '&lt;',
             connNextText: '&gt;',
+            connVisible: 3,
             connRows: 1,
             // end connected slider
 
 
             autoPlay: false, // true or false
-            autoPlayDelay: 10, // delay in seconds
+            autoPlayDelay: 3, // delay in seconds
             controlls: false,
 
 
@@ -44,7 +45,9 @@
             inClass = '',
 //            curent = 0,
             startClass = mainCarousel.find('li').attr('class'),
-        outClass = '';
+            startConClass = conCarousel.find('li').attr('class'),
+            outClass = '',
+            lastBtn = '';
         /*---------------------- end variables -------------------------*/
 
         var functions = {
@@ -55,9 +58,82 @@
                 this.infinite();
                 this.addArrows();
                 this.arrowControlls();
-
+                this.autoplay();
+                this.touch();
+//                window.onload=function(){
+//                    (function(d){
+//                        var
+//                            ce=function(e,n){var a=document.createEvent("CustomEvent");a.initCustomEvent(n,true,true,e.target);e.target.dispatchEvent(a);a=null;return false},
+//                            nm=true,sp={x:0,y:0},ep={x:0,y:0},
+//                            touch={
+//                                touchstart:function(e){sp={x:e.touches[0].pageX,y:e.touches[0].pageY}},
+//                                touchmove:function(e){nm=false;ep={x:e.touches[0].pageX,y:e.touches[0].pageY}},
+//                                touchend:function(e){if(nm){ce(e,'fc')}else{var x=ep.x-sp.x,xr=Math.abs(x),y=ep.y-sp.y,yr=Math.abs(y);if(Math.max(xr,yr)>20){ce(e,(xr>yr?(x<0?'swl':'swr'):(y<0?'swu':'swd')))}};nm=true},
+//                                touchcancel:function(e){nm=false}
+//                            };
+//                        for(var a in touch){d.addEventListener(a,touch[a],false);}
+//                    })(document);
+////EXAMPLE OF USE
+//                    var h=function(e){console.log(e.type,e)};
+//                    document.body.addEventListener('fc',h,false);// 0-50ms vs 500ms with normal click
+//                    document.body.addEventListener('swipeleft',h,false);
+//                    document.body.addEventListener('swiperight',h,false);
+//                    document.body.addEventListener('swipeup',h,false);
+//                    document.body.addEventListener('swipedown',h,false);
+//                }
 
             },
+            /*---------------------- add touch support -------------------------*/
+            touch: function(){
+
+                window.addEventListener('load', function(){
+
+                    var touchsurface = document.getElementById('asd'),
+                        startX,
+                        startY,
+                        dist,
+                        threshold = 150, //required min distance traveled to be considered swipe
+                        allowedTime = 200, // maximum time allowed to travel that distance
+                        elapsedTime,
+                        startTime
+
+                    function handleswipe(isrightswipe){
+                        if (isrightswipe)
+                            touchsurface.innerHTML = 'Congrats, you\'ve made a <span style="color:red">right swipe!</span>'
+                        else{
+                            touchsurface.innerHTML = 'Condition for right swipe not met yet'
+                        }
+                    }
+
+                    touchsurface.addEventListener('touchstart', function(e){
+                        touchsurface.innerHTML = ''
+                        var touchobj = e.changedTouches[0]
+                        dist = 0
+                        startX = touchobj.pageX
+                        startY = touchobj.pageY
+                        startTime = new Date().getTime() // record time when finger first makes contact with surface
+                        e.preventDefault()
+
+                    }, false)
+
+                    touchsurface.addEventListener('touchmove', function(e){
+                        e.preventDefault() // prevent scrolling when inside DIV
+                    }, false)
+
+                    touchsurface.addEventListener('touchend', function(e){
+                        var touchobj = e.changedTouches[0]
+                        dist = touchobj.pageX - startX // get total dist traveled by finger while in contact with surface
+                        elapsedTime = new Date().getTime() - startTime // get time elapsed
+                        // check that elapsed time is within specified, horizontal dist traveled >= threshold, and vertical dist traveled <= 100
+                        var swiperightBol = (elapsedTime <= allowedTime && dist >= threshold && Math.abs(touchobj.pageY - startY) <= 100)
+                        handleswipe(swiperightBol)
+                        e.preventDefault()
+                    }, false)
+
+                }, false)
+
+            },
+            /*---------------------- end add touch support -------------------------*/
             /*---------------------- check for modernizr for visual effects. if not add modernizr -------------------------*/
             modernizr: function () {
 
@@ -170,6 +246,7 @@
 
                 $('.' + options.nextBtn).on('click', function (e) {
                     e.preventDefault();
+                    lastBtn = $(this).attr('class');
                     if (options.effects == false) {
                         self.simpleMove(mainCarousel, $(this));
                     } else {
@@ -180,6 +257,7 @@
 
                 $('.' + options.prevBtn).on('click', function (e) {
                     e.preventDefault();
+                    lastBtn = $(this).attr('class');
                     if (options.effects == false) {
                         self.simpleMove(mainCarousel, $(this));
                     } else {
@@ -189,13 +267,13 @@
 
 
                 /*---------------------- check if not circular carousel and disable prev btn -------------------------*/
-                if(options.connected !== false && options.wrap.indexOf('circular') == -1){
-                    $('.' + options.prevBtn+',.' + options.connPrev).addClass('disabled');
-                } else if(options.wrap.indexOf('circular') == -1){
+                if (options.connected !== false && options.wrap.indexOf('circular') == -1) {
+                    $('.' + options.prevBtn + ',.' + options.connPrev).addClass('disabled');
+                } else if (options.wrap.indexOf('circular') == -1) {
                     $('.' + options.prevBtn).addClass('disabled');
                 }
 
-                this.debug(options.wrap.indexOf('circular') );
+                this.debug(options.wrap.indexOf('circular'));
                 /*---------------------- end check if not circular carousel and disable prev btn -------------------------*/
 
                 /*---------------------------------- add controlls an controlls functions to connected carousel -------------------------*/
@@ -203,8 +281,9 @@
                 if (options.connBtns == true) {
                     $('.' + options.connNext).on('click', function (e) {
                         e.preventDefault();
+                        lastBtn = $(this).attr('class');
 //                        if (options.effects == false) {
-                            self.simpleMove(conCarousel,$(this));
+                        self.simpleMove(conCarousel, $(this));
 //                        } else {
 //                            self.css3move(conCarousel, $(this));
 //                        }
@@ -212,8 +291,9 @@
 
                     $('.' + options.connPrev).on('click', function (e) {
                         e.preventDefault();
+                        lastBtn = $(this).attr('class');
 //                        if (options.effects == false) {
-                            self.simpleMove(conCarousel,$(this));
+                        self.simpleMove(conCarousel, $(this));
 //                        } else {
 //                            self.css3move(conCarousel, $(this));
 //                        }
@@ -258,13 +338,20 @@
                                     $(this).css('left', dirOp + (carouselItem.outerWidth(true) * carouselItems + 'px'));
                                 }
                             }
-                            if (carousel.css('left') == '-' + (carouselItem.outerWidth(true) * (options.quantity + carouselItems) - carouselItem.outerWidth(true)*2) + 'px') {
+                            if (carousel.css('left') == '-' + (carouselItem.outerWidth(true) * (options.quantity + carouselItems) - carouselItem.outerWidth(true) * 2) + 'px') {
                                 if (options.wrap == 'circular') {
-                                    $(this).css('left', '-' + (carouselItem.outerWidth(true) * itemsCount-carouselItem.outerWidth(true) + 'px'));
+                                    $(this).css('left', '-' + (carouselItem.outerWidth(true) * itemsCount - carouselItem.outerWidth(true) + 'px'));
                                 }
                             }
-                            self.setactive(carousel);
-                            self.disEnButtons(btn, 'enable');
+
+                            if (lastBtn !== options.connNext || lastBtn !== options.connPrev) {
+                            }
+                            if (lastBtn == options.connNext || lastBtn == options.connPrev) {
+                                self.disEnButtons(btn, 'enable');
+                            } else {
+                                self.setactive(carousel);
+                                self.disEnButtons(btn, 'enable');
+                            }
 
 
                         }
@@ -298,12 +385,12 @@
 
 
                 if (buttom.attr('class').indexOf('next') !== -1) {
-                        nextPage = activePage.next();
-                        prevPage = activePage.prev();
+                    nextPage = activePage.next();
+                    prevPage = activePage.prev();
 //                    otherBtn = 'prev';
                 } else {
-                        nextPage = activePage.prev();
-                        prevPage = activePage.next();
+                    nextPage = activePage.prev();
+                    prevPage = activePage.next();
 //                    otherBtn = 'next';
                 }
 
@@ -313,7 +400,7 @@
                     self.disEnButtons(btn, 'disable');
 
                     activePage
-//                        .removeClass('active', 'swipeslider_anim_current')
+                        .removeClass('active')
                         .addClass(outClass);
                     nextPage
                         .addClass('swipeslider_anim_current ' + inClass + ' active');
@@ -321,7 +408,6 @@
                     item.on(
                         "animationend MSAnimationEnd oAnimationEnd webkitAnimationEnd",
                         function () {
-
                             activePage.attr('class', startClass);
                             prevPage.attr('class', startClass);
                             nextPage.attr('class', startClass + ' active swipeslider_anim_current');
@@ -338,67 +424,88 @@
             randomGen: function (min, max) {
                 return Math.floor(Math.random() * (max - min + 1) + min);
             },
+
             /*------------- set active elements only if connected carousel -------------------------*/
             setactive: function (carousel) {
                 var activeNum = '';
 
-                if(options.effects==false){
-
-                activeNum = Math.abs(Math.floor(parseInt(carousel.css('left')) / parseInt(carousel.find('li').width())));
-
-                } else{
+                /*------------- get active slide -------------------------*/
+                if (options.effects == false) {
+                    activeNum = Math.abs(Math.floor(parseInt(carousel.css('left')) / parseInt(carousel.find('li').width())));
+                } else {
                     activeNum = carousel.find('li.active').index();
                 }
-                this.debug('setactive slide #' +activeNum);
+                /*------------- end get active slide -------------------------*/
 
-                if(carousel == mainCarousel && options.wrap !=='circular'){
+
+                this.debug('setactive slide #' + activeNum);
+
+
+                /*------------- enable or disable btns for main carousel-------------------------*/
+                $('.' + options.nextBtn + ',.' + options.prevBtn).removeClass('disabled');
+                if (parseInt(mainCarousel.find('.active').index()) === parseInt(item.eq(-1).index()) && options.wrap !== 'circular') {
+                    $('.' + options.nextBtn).addClass('disabled');
+                }
+                if (parseInt(mainCarousel.find('.active').index()) === parseInt(item.eq(0).index()) && options.wrap !== 'circular') {
+                    $('.' + options.prevBtn).addClass('disabled');
+                }
+                /*------------- end enable or disable btns for main carousel -------------------------*/
+
+                /*------------- enable or disable btns for connected carousel -------------------------*/
+                if (options.connected == true) {
+
+                    $('.' + options.connNext + ',.' + options.connPrev).removeClass('disabled');
+
+                    if (parseInt(conCarousel.find('.active').index()) === parseInt(conCarousel.find('li').eq(-1).index()) && options.wrap !== 'circular') {
+                        $('.' + options.connNext).addClass('disabled');
+                    }
+                    if (parseInt(conCarousel.find('.active').index()) === parseInt(conCarousel.find('li').eq(0).index()) && options.wrap !== 'circular') {
+                        $('.' + options.connPrev).addClass('disabled');
+                    }
+
+                    /*------------- centering active item -------------------------*/
+                    /*------------- set active slide to connected carousel -------------------------*/
+                if (options.wrap !== 'circular') {
                     conCarousel
                         .find('li')
                         .removeClass('active')
-                        .eq(activeNum)
+                        .eq(mainCarousel.find('.active').index())
                         .addClass('active');
                 }
+                    /*------------- set active slide to connected carousel -------------------------*/
 
-                $('.'+options.nextBtn+',.'+options.prevBtn).removeClass('disabled');
-                if (parseInt(mainCarousel.find('.active').index()) === parseInt(item.eq(-1).index()) && options.wrap !== 'circular') {
-                    $('.'+options.nextBtn).addClass('disabled');
-                }
-                if (parseInt(mainCarousel.find('.active').index()) === parseInt(item.eq(0).index()) && options.wrap !== 'circular') {
-                    $('.'+options.prevBtn).addClass('disabled');
-                }
 
-                if(options.connected == true){
-
-                    $('.'+options.connNext+',.'+options.connPrev).removeClass('disabled');
-
-                    if (parseInt(conCarousel.find('.active').index()) === parseInt(item.eq(-1).index()) && options.wrap !== 'circular') {
-                        $('.'+options.connNext).addClass('disabled');
+                    if (conCarousel.find('.active').index() >= Math.floor(options.connVisible / 2)
+                        && conCarousel.find('.active').index() <= conCarousel.find('li').eq(-Math.floor(options.connVisible / 2)).index()) {
+                        conCarousel.stop().animate({
+                            left: '-' + (mainCarousel.find('.active').index() - Math.floor(options.connVisible / 2)) * conCarousel.find('li').outerWidth(true)
+                        }, 1000);
+                        this.debug(Math.ceil(options.connVisible / 2))
                     }
-                    if (parseInt(conCarousel.find('.active').index()) === parseInt(item.eq(0).index()) && options.wrap !== 'circular') {
-                        $('.'+options.connPrev).addClass('disabled');
-                    }
+                    /*------------- end centering active item -------------------------*/
+
                 }
-
-                this.debug('active item index '+parseInt(mainCarousel.find('.active').index()));
-                this.debug('first item index '+parseInt(item.eq(0).index()));
-                this.debug('last item index '+parseInt(item.eq(-1).index()));
+                /*------------- end enable or disable btns for connected carousel -------------------------*/
 
 
-//                mainCarousel.find('li').removeClass('active').eq(activeNum).addClass('active');
-//                conCarousel.find('li').removeClass('active').eq(activeNum).addClass('active');
-//                if (carousel.parent().attr('class').indexOf(conCarousel.attr('class'))) {
-//                    mainCarousel.animate({
-//                        'left': '-' + activeNum * mainCarousel.find('li').width()
-//                    })
-//                }
+                this.debug('active main item index ' + parseInt(mainCarousel.find('.active').index()));
+                this.debug('first main item index ' + parseInt(item.eq(0).index()));
+                this.debug('last main item index ' + parseInt(item.eq(-1).index()));
+
+                this.debug('active connected item index ' + parseInt(conCarousel.find('.active').index()));
+                this.debug('first connected item index ' + parseInt(conCarousel.find('li').eq(0).index()));
+                this.debug('last connected item index ' + parseInt(conCarousel.find('li').eq(-1).index()));
             },
             /*------------- end set active elements only if connected carousel -------------------------*/
 
             /*------------- auto play functions -------------------------*/
             autoplay: function () {
-                if (options.autoPlay) {
+
+                if (options.autoPlay == true) {
                     function aPlay() {
+                        $('.' + options.nextBtn).click();
                         delId = setTimeout(aPlay, options.autoPlayDelay * 1000);
+                        this.debug('asdas');
                     }
 
                     var delId = setTimeout(aPlay, options.autoPlayDelay * 1000);
@@ -454,10 +561,10 @@
                     var itemCon = conCarousel.find('li'),
                         self = this,
                         activeConPage = '',
-                        activePage ='',
+                        activePage = '',
                         nextPage = '',
-                        prevPage='',
-                        nextConPage='';
+                        prevPage = '',
+                        nextConPage = '';
                     /*---------------------------------- end variables -------------------------*/
 
                     /*---------------------------------- css function like wrap and add styles -------------------------*/
@@ -474,58 +581,65 @@
                         });
 
                     //set first item active
-                    conCarousel.find('li:first').addClass('active');
+                    conCarousel
+                        .find('li')
+                        .width(conCarousel.parent().width() / options.connVisible)
+                        .first()
+                        .addClass('active');
 
                     /*---------------------------------- end css function like wrap and add styles -------------------------*/
 
                     /*---------------------------------- activate picture from main carousel on click connected carousel item -------------------------*/
                     itemCon.on('click', function (e) {
                         e.preventDefault();
-                        if(!$(this).hasClass('active')){
+                        var thumbnail = $(this);
+                        if (!$(this).hasClass('active')) {
 
-                        if(options.effects == false){
-                            mainCarousel.find('li').removeClass('active');
-                            conCarousel.find('li').removeClass('active');
+                            if (options.effects == false) {
+                                mainCarousel.find('li').removeClass('active');
+                                conCarousel.find('li').removeClass('active');
 
-                            var thisItem = $(this).index();
+                                var thisItem = $(this).index();
 
-                            mainCarousel
-                                .animate({
-                                    'left': '-' + mainCarousel.find('li').width() * thisItem
-                                })
-                                .find('li')
-                                .eq(thisItem)
-                                .addClass('active');
+                                mainCarousel
+                                    .animate({
+                                        'left': '-' + mainCarousel.find('li').width() * thisItem
+                                    })
+                                    .find('li')
+                                    .eq(thisItem)
+                                    .addClass('active');
 
-                            $(this).addClass('active');
-                        } else{
-                            activePage = mainCarousel.find('.active');
+                                $(this).addClass('active');
+                            } else {
+                                activePage = mainCarousel.find('.active');
 
-                            prevPage = activePage.prev();
-                            activeConPage = conCarousel.find('.active');
-                            nextConPage=$(this);
-                            nextPage = mainCarousel.find('li').eq($(this).index());
+                                prevPage = activePage.prev();
+                                activeConPage = conCarousel.find('.active');
+                                nextConPage = $(this);
+                                nextPage = mainCarousel.find('li').eq($(this).index());
 
-                            if (options.effect == 'random') {
-                                self.setAnimation(self.randomGen(1, 67));
-                            } else if (options.effect.indexOf('[') === -1) {
-                                self.setAnimation(self.randomGen(1, options.effect[options.effect.length - 1]));
-                            }
-                            else {
-                                self.setAnimation(options.effect);
-                            }
+                                if (options.effect == 'random') {
+                                    self.setAnimation(self.randomGen(1, 67));
+                                } else if (options.effect.indexOf('[') === -1) {
+                                    self.setAnimation(self.randomGen(1, options.effect[options.effect.length - 1]));
+                                }
+                                else {
+                                    self.setAnimation(options.effect);
+                                }
 
 
                                 activePage
+//                                    .attr('class',startConClass)
                                     .addClass(outClass);
 //                                activeConPage
+////                                    .attr('class',startConClass)
 //                                    .addClass(outClass);
 
                                 nextPage
                                     .addClass('swipeslider_anim_current ' + inClass + ' active');
-                                nextConPage
-                                    .addClass('swipeslider_anim_current ' + inClass + ' active');
-
+//                                nextConPage
+//                                    .addClass('swipeslider_anim_current ' + inClass + ' active');
+//
                                 item.on(
                                     "animationend MSAnimationEnd oAnimationEnd webkitAnimationEnd",
                                     function () {
@@ -537,87 +651,14 @@
                                         self.setactive(mainCarousel);
                                     }
                                 );
-                                itemCon.on(
-                                    "animationend MSAnimationEnd oAnimationEnd webkitAnimationEnd",
-                                    function () {
-                                        activeConPage.attr('class', startClass);
-//                                        prevPage.attr('class', startClass);
-                                        nextConPage.attr('class', startClass + ' active swipeslider_anim_current');
-                                    }
-                                );
-
+                            }
                         }
-                    }
 
                     });
                     /*---------------------------------- end activate picture from main carousel on click connected carousel item -------------------------*/
                 }
             },
             /*------------- end connected carousel -------------------------*/
-
-//            /*------------- css3 animations controlls -----------------------------------------------*/
-//            css3effects: function () {
-//
-//
-//                btnclick = function () {
-//
-//                    /*---------------------------------- variables -------------------------*/
-//                    var thisPage = mainCarousel.find('li').eq(page),
-//                        nextPage = thisPage.next(),
-//                        prevPage = thisPage.prev(),
-//                        outClass = '',
-//                        inClass = '',
-//                        curent = 0,
-//                        animation = 1;
-//                    /*---------------------------------- end variables -------------------------*/
-//
-//                    /*---------------------------------- btn on click event -------------------------*/
-//                    $('.' + options.nextBtn).click(function (event) {
-//                        var btn = $(this);
-//                        event.preventDefault();
-//                        $(this).addClass('inactive');
-//
-//
-//                        this.setAnimation(options.effect);
-//                        thisSLide
-//                            .removeClass('active', 'swipeslider_anim_current')
-//                            .addClass(outClass)
-//                            .next()
-//                            .addClass('swipeslider_anim_current ' + inClass + ' active');
-//                        thisSLide.prev().attr('class', thisSLide.data('originalClassList'));
-//                        console.log(thisSLide.data('originalClassList'));
-//
-//                        $(this).removeClass('inactive');
-//                    });
-//                    /*---------------------------------- end btn on click event -------------------------*/
-//
-//                };
-//
-//                /*---------------------------------- end switch case animations-------------------------*/
-//
-//                misc = function () {
-//                    /*---------------------------------- get original class name -------------------------*/
-//                    item.each(function () {
-//                        var $page = $(this);
-//                        $page.data('originalClassList', $page.attr('class'));
-//                    });
-//                    /*---------------------------------- end get original class name -------------------------*/
-//
-//
-////                    function onEndAnimation($outpage, $inpage) {
-////                        endCurrPage = false;
-////                        endNextPage = false;
-////                        resetPage($outpage, $inpage);
-////                        isAnimating = false;
-////                    }
-////
-////                    function resetPage($outpage, $inpage) {
-////                        $outpage.attr('class', $outpage.data('originalClassList'));
-////                        $inpage.attr('class', $inpage.data('originalClassList') + ' swipeslider_anim_current');
-////                    }
-//                }
-//            },
-//            /*------------- end css3 animations controlls -----------------------------------------------*/
 
             /*------------- switch case animations-------------------------*/
             setAnimation: function ($animation) {
