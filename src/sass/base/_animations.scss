@@ -1,7 +1,6 @@
-
 /* animation sets */
 
-/* move from / to  */
+/* move from / to  */ 
 
 .swipeslider_anim_moveToLeft {
   @include animation(moveToLeft .6s ease both);
