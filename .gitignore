@@ -5,3 +5,4 @@ components
 .jshintrc
 config.json
 dist
+.idea
