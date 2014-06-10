@@ -32,40 +32,40 @@ body { font-family: 'Ek Mukta', sans-serif; }
 
 .swipeslider_anim_moveToTop { -o-animation: moveToTop 0.6s ease both; -moz-animation: moveToTop 0.6s ease both; -webkit-animation: moveToTop 0.6s ease both; animation: moveToTop 0.6s ease both; }
 
-.swipeslider_anim_moveFromTop { -webkit-animation: moveFromTop .6s ease both; animation: moveFromTop .6s ease both; }
+.swipeslider_anim_moveFromTop { -o-animation: moveFromTop 0.6s ease both; -moz-animation: moveFromTop 0.6s ease both; -webkit-animation: moveFromTop 0.6s ease both; animation: moveFromTop 0.6s ease both; }
 
-.swipeslider_anim_moveToBottom { -webkit-animation: moveToBottom .6s ease both; animation: moveToBottom .6s ease both; }
+.swipeslider_anim_moveToBottom { -o-animation: moveToBottom 0.6s ease both; -moz-animation: moveToBottom 0.6s ease both; -webkit-animation: moveToBottom 0.6s ease both; animation: moveToBottom 0.6s ease both; }
 
-.swipeslider_anim_moveFromBottom { -webkit-animation: moveFromBottom .6s ease both; animation: moveFromBottom .6s ease both; }
+.swipeslider_anim_moveFromBottom { -o-animation: moveFromBottom 0.6s ease both; -moz-animation: moveFromBottom 0.6s ease both; -webkit-animation: moveFromBottom 0.6s ease both; animation: moveFromBottom 0.6s ease both; }
 
 /* fade */
-.swipeslider_anim_fade { -webkit-animation: fade .7s ease both; animation: fade .7s ease both; }
+.swipeslider_anim_fade { -o-animation: fade 0.7s ease both; -moz-animation: fade 0.7s ease both; -webkit-animation: fade 0.7s ease both; animation: fade 0.7s ease both; }
 
 /* move from / to and fade */
-.swipeslider_anim_moveToLeftFade { -webkit-animation: moveToLeftFade .7s ease both; animation: moveToLeftFade .7s ease both; }
+.swipeslider_anim_moveToLeftFade { -o-animation: moveToLeftFade 0.7s ease both; -moz-animation: moveToLeftFade 0.7s ease both; -webkit-animation: moveToLeftFade 0.7s ease both; animation: moveToLeftFade 0.7s ease both; }
 
-.swipeslider_anim_moveFromLeftFade { -webkit-animation: moveFromLeftFade .7s ease both; animation: moveFromLeftFade .7s ease both; }
+.swipeslider_anim_moveFromLeftFade { -o-animation: moveFromLeftFade 0.7s ease both; -moz-animation: moveFromLeftFade 0.7s ease both; -webkit-animation: moveFromLeftFade 0.7s ease both; animation: moveFromLeftFade 0.7s ease both; }
 
-.swipeslider_anim_moveToRightFade { -webkit-animation: moveToRightFade .7s ease both; animation: moveToRightFade .7s ease both; }
+.swipeslider_anim_moveToRightFade { -o-animation: moveToRightFade 0.7s ease both; -moz-animation: moveToRightFade 0.7s ease both; -webkit-animation: moveToRightFade 0.7s ease both; animation: moveToRightFade 0.7s ease both; }
 
-.swipeslider_anim_moveFromRightFade { -webkit-animation: moveFromRightFade .7s ease both; animation: moveFromRightFade .7s ease both; }
+.swipeslider_anim_moveFromRightFade { -o-animation: moveFromRightFade 0.7s ease both; -moz-animation: moveFromRightFade 0.7s ease both; -webkit-animation: moveFromRightFade 0.7s ease both; animation: moveFromRightFade 0.7s ease both; }
 
-.swipeslider_anim_moveToTopFade { -webkit-animation: moveToTopFade .7s ease both; animation: moveToTopFade .7s ease both; }
+.swipeslider_anim_moveToTopFade { -o-animation: moveToTopFade 0.7s ease both; -moz-animation: moveToTopFade 0.7s ease both; -webkit-animation: moveToTopFade 0.7s ease both; animation: moveToTopFade 0.7s ease both; }
 
-.swipeslider_anim_moveFromTopFade { -webkit-animation: moveFromTopFade .7s ease both; animation: moveFromTopFade .7s ease both; }
+.swipeslider_anim_moveFromTopFade { -o-animation: moveFromTopFade 0.7s ease both; -moz-animation: moveFromTopFade 0.7s ease both; -webkit-animation: moveFromTopFade 0.7s ease both; animation: moveFromTopFade 0.7s ease both; }
 
-.swipeslider_anim_moveToBottomFade { -webkit-animation: moveToBottomFade .7s ease both; animation: moveToBottomFade .7s ease both; }
+.swipeslider_anim_moveToBottomFade { -o-animation: moveToBottomFade 0.7s ease both; -moz-animation: moveToBottomFade 0.7s ease both; -webkit-animation: moveToBottomFade 0.7s ease both; animation: moveToBottomFade 0.7s ease both; }
 
-.swipeslider_anim_moveFromBottomFade { -webkit-animation: moveFromBottomFade .7s ease both; animation: moveFromBottomFade .7s ease both; }
+.swipeslider_anim_moveFromBottomFade { -o-animation: moveFromBottomFade 0.7s ease both; -moz-animation: moveFromBottomFade 0.7s ease both; -webkit-animation: moveFromBottomFade 0.7s ease both; animation: moveFromBottomFade 0.7s ease both; }
 
 /* move to with different easing */
-.swipeslider_anim_moveToLeftEasing { -webkit-animation: moveToLeft .7s ease-in-out both; animation: moveToLeft .7s ease-in-out both; }
+.swipeslider_anim_moveToLeftEasing { -o-animation: moveToLeft 0.7s ease-in-out both; -moz-animation: moveToLeft 0.7s ease-in-out both; -webkit-animation: moveToLeft 0.7s ease-in-out both; animation: moveToLeft 0.7s ease-in-out both; }
 
-.swipeslider_anim_moveToRightEasing { -webkit-animation: moveToRight .7s ease-in-out both; animation: moveToRight .7s ease-in-out both; }
+.swipeslider_anim_moveToRightEasing { -o-animation: moveToRight 0.7s ease-in-out both; -moz-animation: moveToRight 0.7s ease-in-out both; -webkit-animation: moveToRight 0.7s ease-in-out both; animation: moveToRight 0.7s ease-in-out both; }
 
-.swipeslider_anim_moveToTopEasing { -webkit-animation: moveToTop .7s ease-in-out both; animation: moveToTop .7s ease-in-out both; }
+.swipeslider_anim_moveToTopEasing { -o-animation: moveToTop 0.7s ease-in-out both; -moz-animation: moveToTop 0.7s ease-in-out both; -webkit-animation: moveToTop 0.7s ease-in-out both; animation: moveToTop 0.7s ease-in-out both; }
 
-.swipeslider_anim_moveToBottomEasing { -webkit-animation: moveToBottom .7s ease-in-out both; animation: moveToBottom .7s ease-in-out both; }
+.swipeslider_anim_moveToBottomEasing { -o-animation: moveToBottom 0.7s ease-in-out both; -moz-animation: moveToBottom 0.7s ease-in-out both; -webkit-animation: moveToBottom 0.7s ease-in-out both; animation: moveToBottom 0.7s ease-in-out both; }
 
 /********************************* keyframes **************************************/
 /* move from / to  */
@@ -101,21 +101,33 @@ body { font-family: 'Ek Mukta', sans-serif; }
 
 @keyframes moveFromRight { from { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); -o-transform: translateX(100%); transform: translateX(100%); } }
 
-@-webkit-keyframes moveFromRight { from { -webkit-transform: translateX(100%); } }
+@-webkit-keyframes moveFromRight { from { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); -o-transform: translateX(100%); transform: translateX(100%); } }
 
-@keyframes moveFromRight { from { -webkit-transform: translateX(100%); transform: translateX(100%); } }
+@-moz-keyframes moveFromRight { from { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); -o-transform: translateX(100%); transform: translateX(100%); } }
 
-@-webkit-keyframes moveToTop { to { -webkit-transform: translateY(-100%); } }
+@-ms-keyframes moveFromRight { from { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); -o-transform: translateX(100%); transform: translateX(100%); } }
 
-@keyframes moveToTop { to { -webkit-transform: translateY(-100%); transform: translateY(-100%); } }
+@keyframes moveFromRight { from { -webkit-transform: translateX(100%); -moz-transform: translateX(100%); -ms-transform: translateX(100%); -o-transform: translateX(100%); transform: translateX(100%); } }
 
-@-webkit-keyframes moveFromTop { from { -webkit-transform: translateY(-100%); } }
+@-webkit-keyframes moveToTop { to { -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); } }
 
-@keyframes moveFromTop { from { -webkit-transform: translateY(-100%); transform: translateY(-100%); } }
+@-moz-keyframes moveToTop { to { -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); } }
 
-@-webkit-keyframes moveToBottom { to { -webkit-transform: translateY(100%); } }
+@-ms-keyframes moveToTop { to { -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); } }
 
-@keyframes moveToBottom { to { -webkit-transform: translateY(100%); transform: translateY(100%); } }
+@keyframes moveToTop { to { -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); } }
+
+@-webkit-keyframes moveFromTop { from { -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); } }
+
+@-moz-keyframes moveFromTop { from { -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); } }
+
+@-ms-keyframes moveFromTop { from { -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); } }
+
+@keyframes moveFromTop { from { -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); } }
+
+@-webkit-keyframes moveToBottom { to { -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); transform: translateY(100%); } }
+
+@keyframes moveToBottom { to { -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); transform: translateY(100%); } }
 
 @-webkit-keyframes moveFromBottom { from { -webkit-transform: translateY(100%); } }
 

@@ -3,25 +3,45 @@
 
 //base styles
 
+.swipeslider_wrapper{
+  position: relative;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  width: 100%;
+  ul{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    li{
+      visibility: hidden;
+      overflow: hidden;
+      @include backface-visibility(hidden);
+      @include transform(translate3d(0, 0, 0));
+      @include transform-style(preserve-3d);
+      float: left;
+      width: 100%;
+      &.active{
+        z-index: 1;
+        visibility: visible !important;
+      }
+
+    }
+  }
+}
+
+
 .swipeslider{
   list-style: none;
   margin: 0;
+  height: 480px;
   padding: 0;
-  >li{
-    visibility: hidden;
-    overflow: hidden;
-    @include backface-visibility(hidden);
-    @include transform(translate3d(0, 0, 0));
-    @include transform-style(preserve-3d);
-    float: left;
-    width: 100%;
+  li{
     img{
       width: 100%;
     }
-  }
-  .active{
-    z-index: 1;
-    visibility: visible !important;
   }
 }
 

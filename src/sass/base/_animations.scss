@@ -1,6 +1,6 @@
 /* animation sets */
 
-/* move from / to  */ 
+/* move from / to  */
 
 .swipeslider_anim_moveToLeft {
   @include animation(moveToLeft .6s ease both);
@@ -24,109 +24,75 @@
 }
 
 .swipeslider_anim_moveFromTop {
-  -webkit-animation: moveFromTop .6s ease both;
-  animation: moveFromTop .6s ease both;
+  @include animation(moveFromTop .6s ease both);
 }
 
 .swipeslider_anim_moveToBottom {
-  -webkit-animation: moveToBottom .6s ease both;
-  animation: moveToBottom .6s ease both;
+  @include animation(moveToBottom .6s ease both);
 }
 
 .swipeslider_anim_moveFromBottom {
-  -webkit-animation: moveFromBottom .6s ease both;
-  animation: moveFromBottom .6s ease both;
+  @include animation(moveFromBottom .6s ease both);
 }
 
 /* fade */
 
 .swipeslider_anim_fade {
-  -webkit-animation: fade .7s ease both;
-  animation: fade .7s ease both;
+  @include animation(fade .7s ease both);
 }
 
 /* move from / to and fade */
 
 .swipeslider_anim_moveToLeftFade {
-  -webkit-animation: moveToLeftFade .7s ease both;
-  animation: moveToLeftFade .7s ease both;
+  @include animation(moveToLeftFade .7s ease both);
 }
 
 .swipeslider_anim_moveFromLeftFade {
-  -webkit-animation: moveFromLeftFade .7s ease both;
-  animation: moveFromLeftFade .7s ease both;
+  @include animation(moveFromLeftFade .7s ease both);
 }
 
 .swipeslider_anim_moveToRightFade {
-  -webkit-animation: moveToRightFade .7s ease both;
-  animation: moveToRightFade .7s ease both;
+  @include animation(moveToRightFade .7s ease both);
 }
 
 .swipeslider_anim_moveFromRightFade {
-  -webkit-animation: moveFromRightFade .7s ease both;
-  animation: moveFromRightFade .7s ease both;
+  @include animation(moveFromRightFade .7s ease both);
 }
 
 .swipeslider_anim_moveToTopFade {
-  -webkit-animation: moveToTopFade .7s ease both;
-  animation: moveToTopFade .7s ease both;
+  @include animation(moveToTopFade .7s ease both);
 }
 
 .swipeslider_anim_moveFromTopFade {
-  -webkit-animation: moveFromTopFade .7s ease both;
-  animation: moveFromTopFade .7s ease both;
+  @include animation(moveFromTopFade .7s ease both);
 }
 
 .swipeslider_anim_moveToBottomFade {
-  -webkit-animation: moveToBottomFade .7s ease both;
-  animation: moveToBottomFade .7s ease both;
+  @include animation(moveToBottomFade .7s ease both);
 }
 
 .swipeslider_anim_moveFromBottomFade {
-  -webkit-animation: moveFromBottomFade .7s ease both;
-  animation: moveFromBottomFade .7s ease both;
+  @include animation(moveFromBottomFade .7s ease both);
 }
 
 /* move to with different easing */
 
 .swipeslider_anim_moveToLeftEasing {
-  -webkit-animation: moveToLeft .7s ease-in-out both;
-  animation: moveToLeft .7s ease-in-out both;
+  @include animation(moveToLeft .7s ease-in-out both);
 }
 .swipeslider_anim_moveToRightEasing {
-  -webkit-animation: moveToRight .7s ease-in-out both;
-  animation: moveToRight .7s ease-in-out both;
+  @include animation(moveToRight .7s ease-in-out both);
 }
 .swipeslider_anim_moveToTopEasing {
-  -webkit-animation: moveToTop .7s ease-in-out both;
-  animation: moveToTop .7s ease-in-out both;
+  @include animation(moveToTop .7s ease-in-out both);
 }
 .swipeslider_anim_moveToBottomEasing {
-  -webkit-animation: moveToBottom .7s ease-in-out both;
-  animation: moveToBottom .7s ease-in-out both;
+  @include animation(moveToBottom .7s ease-in-out both);
 }
 
 /********************************* keyframes **************************************/
 
 /* move from / to  */
-
-// keyframes mixin
-@mixin keyframes($name) {
-  @-webkit-keyframes #{$name} {
-    @content; 
-  }
-  @-moz-keyframes #{$name} {
-    @content;
-  }
-  @-ms-keyframes #{$name} {
-    @content;
-  }
-  @keyframes #{$name} {
-    @content;
-  } 
-}
-
-
 
 @include keyframes(moveToLeft) {
   from { }
@@ -146,64 +112,26 @@
   from{@include transform(translateX(100%));}
 }
 
-
-
-
-// @-webkit-keyframes moveToLeft {
-//   from { }
-//   to { @include transform();-webkit-transform: translateX(-100%); }
-// }
-// @keyframes moveToLeft {
-//   from { }
-//   to { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
-// }
-
-// @-webkit-keyframes moveFromLeft {
-//   from { -webkit-transform: translateX(-100%); }
-// }
-// @keyframes moveFromLeft {
-//   from { -webkit-transform: translateX(-100%); transform: translateX(-100%); }
-// }
-
-// @-webkit-keyframes moveToRight {
-//   from { }
-//   to { -webkit-transform: translateX(100%); }
-// }
-// @keyframes moveToRight {
-//   from { }
-//   to { -webkit-transform: translateX(100%); transform: translateX(100%); }
-// }
-
-@-webkit-keyframes moveFromRight {
-  from { -webkit-transform: translateX(100%); }
-}
-@keyframes moveFromRight {
-  from { -webkit-transform: translateX(100%); transform: translateX(100%); }
+@include keyframes(moveFromRight) {
+  from {  @include transform(translateX(100%)); }
 }
 
-@-webkit-keyframes moveToTop {
+@include keyframes(moveToTop) {
   from { }
-  to { -webkit-transform: translateY(-100%); }
-}
-@keyframes moveToTop {
-  from { }
-  to { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
+  to {  @include transform(translateY(-100%)); }
 }
 
-@-webkit-keyframes moveFromTop {
-  from { -webkit-transform: translateY(-100%); }
-}
-@keyframes moveFromTop {
-  from { -webkit-transform: translateY(-100%); transform: translateY(-100%); }
+@include keyframes(moveFromTop) {
+  from { @include transform(translateY(-100%));}
 }
 
 @-webkit-keyframes moveToBottom {
   from { }
-  to { -webkit-transform: translateY(100%); }
+  to {@include transform(translateY(100%));}
 }
 @keyframes moveToBottom {
   from { }
-  to { -webkit-transform: translateY(100%); transform: translateY(100%); }
+  to { @include transform(translateY(100%));}
 }
 
 @-webkit-keyframes moveFromBottom {
