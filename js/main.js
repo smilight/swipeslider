@@ -1,12 +1,10 @@
 (function ($) {
     jQuery.fn.swipeslider = function (options) {
-
         options = $.extend({
             prevBtn: 'swipeslider_prev',
             nextBtn: 'swipeslider_next',
             nextBtnText: 'next >>',
             prevBtnText: '<< prev',
-
             pagerWrp: 'swipeslider_pager',
             quantity: 1,
             rows: 1,
@@ -47,6 +45,8 @@
             startClass = mainCarousel.find('li').attr('class'),
             startConClass = conCarousel.find('li').attr('class'),
             outClass = '',
+            nextBtn = '',
+            prevBtn = '',
             lastBtn = '';
         /*---------------------- end variables -------------------------*/
 
@@ -63,18 +63,18 @@
                 this.keycontrolls();
             },
             /*---------------------- add key controlls support -------------------------*/
-            keycontrolls:function(){
+            keycontrolls: function () {
                 document.onkeydown = checkKey;
                 function checkKey(e) {
 
                     e = e || window.event;
 
                     if (e.keyCode == '37') {
-                        $('.'+options.prevBtn).click();
+                        $('.' + options.prevBtn).click();
                         console.log('left')
                     }
                     else if (e.keyCode == '39') {
-                        $('.'+options.nextBtn).click();
+                        $('.' + options.nextBtn).click();
                         console.log('rigth')
                     }
                 }
@@ -82,7 +82,7 @@
             /*---------------------- end add key controlls support -------------------------*/
 
             /*---------------------- add touch support -------------------------*/
-            touch: function(){
+            touch: function () {
 
 //                var lastX;
 //                $('.swipeslider_wrapper').bind("touchmove mousemove", function (e) {
@@ -97,17 +97,23 @@
 //
 //                })
 
+//                var nextBtn = mainCarousel.parent().find('.'+options.nextBtn),
+//                    prevBtn = mainCarousel.parent().find('.'+options.prevBtn);
+//
+
                 var ts;
-                $(document).bind('touchstart', function(e) {
+                $(document).bind('touchstart', function (e) {
                     ts = e.originalEvent.touches[0].clientX;
                 });
 
-                $(document).bind('touchmove', function(e) {
+                mainCarousel.bind('touchmove', function (e) {
                     var te = e.originalEvent.changedTouches[0].clientX;
                     if (ts > te) {
-                        $('.'+options.nextBtn).click();
+                        nextBtn.click();
+                        console.log('next')
                     } else {
-                        $('.'+options.prevBtn).click();
+                        prevBtn.click();
+                        console.log('prev')
                     }
                 });
 
@@ -242,39 +248,36 @@
             css: function () {
 
                 sliderWrap = el
-                    .wrap('<div class="swipeslider_wrapper" style="' +
-                        'overflow: hidden;' +
-                        'display: inline-block;' +
-                        'height:100%;' +
-                        'width:100%"' +
-                        '/>')
-                    .css({
-                        'position': 'relative',
-                        'left': 0,
-                        height: el.find('li').height()
-
-                    })
+                    .wrap('<div class="swipeslider_wrapper"/>')
                     .find('li:first').addClass('active');
 
+
                 /*---------------------- check if enabled css3 effects if none use styles fo .animate -------------------------*/
-                if (options.effects == false || $('html').hasClass('no-csstransforms')) {
+
+                if (options.effects == false || document.body.classList.contains('no-csstransforms')) {
                     item.css({
                         'position': 'relative',
                         'float': 'left',
-                        'top': 0,
-                        'left': 0,
                         'visibility': 'visible'
                     });
-                    el.width(itemsCount * item.width());
+                    el.width(itemsCount * item.outerWidth(true));
+                    item.width(el.parent().width() / options.quantity);
+
+                    this.debug('item width = ' + item.width())
+                    this.debug('el width = ' + $('body').find('.message__incoming').width())
                 } else {
                     item.css({
                         'position': 'absolute',
-                        'top': 0,
-                        'left': 0
-                        // 'visibility': 'visible'
                     })
+
                 }
+
                 /*---------------------- end check if enabled css3 effects if none use styles fo .animate -------------------------*/
+
+                /*---------------------- resize items -------------------------*/
+
+
+                /*---------------------- end resize items -------------------------*/
 
             },
             /*------------- end slider resizing etc -------------------------*/
@@ -325,6 +328,9 @@
                             options.connNextText +
                             '</i>');
                 }
+                nextBtn = mainCarousel.parent().find('.' + options.nextBtn);
+                prevBtn = mainCarousel.parent().find('.' + options.prevBtn);
+
             },
             /*------------- end add controlls elements -------------------------*/
 
@@ -332,7 +338,7 @@
             arrowControlls: function () {
                 var self = this;
 
-                $('.' + options.nextBtn).on('click', function (e) {
+                nextBtn.on('click', function (e) {
                     e.preventDefault();
                     lastBtn = $(this).attr('class');
                     if (options.effects == false) {
@@ -343,7 +349,7 @@
 
                 });
 
-                $('.' + options.prevBtn).on('click', function (e) {
+                prevBtn.on('click', function (e) {
                     e.preventDefault();
                     lastBtn = $(this).attr('class');
                     if (options.effects == false) {
@@ -408,7 +414,6 @@
                     dir = '+';
                     dirOp = '-';
                 }
-
                 if (!btn.hasClass('inactive') && !btn.hasClass('disabled')) {
                     btn.siblings('[class*="prev"],[class*="next"]').removeClass('disabled');
 
@@ -416,7 +421,7 @@
 
                     carousel.animate({
                             left: dir + '=' + carouselItem.outerWidth(true) + 'px'
-                        }, 10,
+                        }, 500,
                         function () {
                             if (carousel.css('left') == '0px') {
                                 if (options.wrap == 'circular') {
@@ -485,7 +490,7 @@
 
                     activePage
                         .removeClass('active')
-                        .addClass('swipeslider_anim_current '+outClass);
+                        .addClass('swipeslider_anim_current ' + outClass);
                     nextPage
                         .addClass('swipeslider_anim_current ' + inClass + ' active');
 
@@ -549,13 +554,13 @@
 
                     /*------------- centering active item -------------------------*/
                     /*------------- set active slide to connected carousel -------------------------*/
-                if (options.wrap !== 'circular') {
-                    conCarousel
-                        .find('li')
-                        .removeClass('active')
-                        .eq(mainCarousel.find('.active').index())
-                        .addClass('active');
-                }
+                    if (options.wrap !== 'circular') {
+                        conCarousel
+                            .find('li')
+                            .removeClass('active')
+                            .eq(mainCarousel.find('.active').index())
+                            .addClass('active');
+                    }
                     /*------------- set active slide to connected carousel -------------------------*/
 
 
@@ -1014,14 +1019,13 @@
 
 
         };
-
-        return this.each(functions.init());
+        return functions.init(this);
     };
 })
     (jQuery);
 (function() {
     $('.slider li').height($(window).height());
-    $('.slider').swipeslider({
+    $('.slider.simple').swipeslider({
         nextBtnText: '<i class="glyphicon glyphicon-forward"/>',
         prevBtnText: '<i class="glyphicon glyphicon-backward"/>',
         connNextText: '<i class="glyphicon glyphicon-forward"/>',
