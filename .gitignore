@@ -4,3 +4,4 @@ components
 .editorconfig
 .jshintrc
 config.json
+dist
